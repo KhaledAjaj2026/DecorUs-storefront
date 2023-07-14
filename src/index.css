@@ -13,3 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.label {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.description {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.price {
+  font-family: 'Cutive Mono', monospace;
+}
