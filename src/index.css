@@ -6,8 +6,6 @@
   --melon: #e0ac9d;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
   color-scheme: light dark;
   color: #000;
@@ -20,14 +18,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.label {
+.font-label {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-.description {
+.font-description {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-.price {
+.font-price {
   font-family: 'Cutive Mono', monospace;
 }

@@ -1,0 +1,9 @@
+#component-navbar {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  padding: 10px;
+}
+#component-navbar p {
+  margin: auto 5px;
+}/*# sourceMappingURL=navbar.css.map */
