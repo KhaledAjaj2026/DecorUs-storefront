@@ -1,11 +1,17 @@
 :root {
+  --outer-space: #484a47;
+  --payne-gray: #5c6d70;
+  --old-rose: #a37774;
+  --salmon: #e88873;
+  --melon: #e0ac9d;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #000;
+  background-color: var(--melon);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
