@@ -8,6 +8,17 @@ export default function Products() {
         <h1 className="font-label">Shop From Our Latest Imports:</h1>
         <div className="product-window">
           <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
         </div>
       </div>
     </>

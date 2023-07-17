@@ -1,7 +1,7 @@
-#component-products {
-  color: blue;
-}
-
 .product-window {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border: 1px solid black;
+  padding: 20px;
 }/*# sourceMappingURL=products.css.map */
