@@ -4,28 +4,21 @@
   --old-rose: #a37774;
   --salmon: #e88873;
   --melon: #e0ac9d;
+  --marble: #f7eae6;
+
+  --font-label: 'Libre Franklin', sans-serif;
+  --font-description: 'Barlow Condensed', sans-serif;;
+  --font-price: 'Cutive Mono', monospace;;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
   color: #000;
-  background-color: var(--melon);
+  background-color: var(--marble);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-.font-label {
-  font-family: 'Libre Franklin', sans-serif;
-}
-
-.font-description {
-  font-family: 'Barlow Condensed', sans-serif;
-}
-
-.font-price {
-  font-family: 'Cutive Mono', monospace;
 }
