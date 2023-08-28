@@ -1,3 +1,7 @@
+#route_products {
+  color: green;
+}
+
 .product-window {
   display: flex;
   justify-content: center;

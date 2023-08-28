@@ -1,12 +1,15 @@
-import './products.css';
 import Item from '../../components/Item/item';
+import NavBar from '../../components/NavBar/navbar';
+import './products.css';
 
 export default function Products() {
 	return (
 		<>
-			<div id="component-products">
+			<NavBar />
+			<div id="route_products">
 				<h1 className="font-label">Shop From Our Latest Imports:</h1>
 				<div className="product-window">
+					{/* TODO: implement dynamic loading of all products via loop. */}
 					<Item />
 					<Item />
 					<Item />

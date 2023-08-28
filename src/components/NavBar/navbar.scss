@@ -1,0 +1,12 @@
+#component_navbar {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    padding: 10px;
+
+    p {
+        padding: 5px;
+        margin: auto 5px;
+    }
+}
