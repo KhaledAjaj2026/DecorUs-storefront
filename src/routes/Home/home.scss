@@ -1,9 +1,10 @@
 #route_home {
-    color: blue;
+    text-align: center;
 }
 
-.route_home-header {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+.home_featured {
+    div {
+        display: flex;
+        justify-content: center;
+    }
 }

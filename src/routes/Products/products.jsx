@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import Item from '../../components/Item/item';
 import NavBar from '../../components/NavBar/navbar';
 import './products.css';
@@ -24,9 +23,6 @@ export default function Products() {
 					<Item />
 					<Item />
 				</div>
-			</div>
-			<div id="product-view">
-				<Outlet />
 			</div>
 		</>
 	);
