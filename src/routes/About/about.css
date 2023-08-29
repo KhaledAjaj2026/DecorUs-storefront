@@ -1,3 +1,44 @@
 #route_about {
-  color: seagreen;
+  margin: 10vh 10vw;
+  text-align: center;
+}
+
+.about_beginnings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+}
+.about_beginnings div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_building-our-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+  flex-direction: row-reverse;
+}
+.about_building-our-brand div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_today {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem auto;
+}
+.about_today div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=about.css.map */

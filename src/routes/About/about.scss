@@ -1,3 +1,31 @@
 #route_about {
-    color: seagreen;
+    margin: 10vh 10vw;
+    text-align: center;
+}
+
+@mixin aboutSections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem auto;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.about_beginnings {
+    @include aboutSections();
+}
+
+.about_building-our-brand {
+    @include aboutSections();
+    flex-direction: row-reverse;
+}
+
+.about_today {
+    @include aboutSections();
 }
