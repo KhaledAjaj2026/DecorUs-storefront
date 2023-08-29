@@ -5,7 +5,7 @@ import './product-details.css';
 export default function ProductDetails() {
 	return (
 		<div id="subroute_product-details">
-			<Link to="/products">Back to Products</Link>
+			<Link to="/shop">Back to Products</Link>
 			<div id="product-details_window">
 				<img src={itemImage} className="item-img" alt="" />
 				<div>

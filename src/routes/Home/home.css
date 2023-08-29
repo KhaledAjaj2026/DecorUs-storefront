@@ -1,8 +1,22 @@
 #route_home {
   text-align: center;
 }
+#route_home header,
+#route_home section {
+  margin: 10rem auto;
+}
 
 .home_featured div {
   display: flex;
   justify-content: center;
+}
+
+.home_handcrafted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_reviews i {
+  margin: 1rem;
 }/*# sourceMappingURL=home.css.map */

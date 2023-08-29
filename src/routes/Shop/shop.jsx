@@ -1,6 +1,6 @@
 import Item from '../../components/Item/item';
 import NavBar from '../../components/NavBar/navbar';
-import './products.css';
+import './shop.css';
 
 export default function Products() {
 	return (

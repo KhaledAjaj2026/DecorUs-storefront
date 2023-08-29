@@ -1,4 +1,5 @@
 #component_navbar {
+  position: fixed;
   color: black;
   display: flex;
   justify-content: flex-start;
