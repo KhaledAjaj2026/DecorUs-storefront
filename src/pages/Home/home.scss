@@ -1,9 +1,13 @@
+// @import '../../index.scss';
+@use '../../index.scss';
+
 #route_home {
     text-align: center;
 
     header,
     section {
         margin: 10rem auto;
+        font-family: index.$fontLabel;
     }
 }
 

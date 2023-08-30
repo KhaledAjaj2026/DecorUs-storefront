@@ -1,0 +1,22 @@
+$outerSpace: #484a47;
+$payneGray: #5c6d70;
+$oldRose: #a37774;
+$salmon: #e88873;
+$melon: #e0ac9d;
+$marble: #f7eae6;
+
+$fontLabel: 'Libre Franklin', sans-serif;
+$fontDescription: 'Barlow Condensed', sans-serif;
+$fontPrice: 'Cutive Mono', monospace;
+
+:root {
+    color-scheme: light;
+    color: #000;
+    background-color: var($marble);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}

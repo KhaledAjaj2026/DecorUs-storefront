@@ -1,9 +1,21 @@
+:root {
+  color-scheme: light;
+  color: #000;
+  background-color: var(#f7eae6);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
 #route_home {
   text-align: center;
 }
 #route_home header,
 #route_home section {
   margin: 10rem auto;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .home_featured div {

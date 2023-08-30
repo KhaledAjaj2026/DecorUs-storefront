@@ -1,24 +1,10 @@
 :root {
-  --outer-space: #484a47;
-  --payne-gray: #5c6d70;
-  --old-rose: #a37774;
-  --salmon: #e88873;
-  --melon: #e0ac9d;
-  --marble: #f7eae6;
-
-  --font-label: 'Libre Franklin', sans-serif;
-  --font-description: 'Barlow Condensed', sans-serif;;
-  --font-price: 'Cutive Mono', monospace;;
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
   color-scheme: light;
   color: #000;
-  background-color: var(--marble);
-
+  background-color: var(#f7eae6);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+}/*# sourceMappingURL=index.css.map */
