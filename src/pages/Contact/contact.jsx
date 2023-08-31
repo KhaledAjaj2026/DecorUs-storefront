@@ -27,7 +27,9 @@ export default function Contact() {
 						cols="30"
 						rows="8"
 					></textarea>
-					<button type="submit">Submit</button>
+					<button type="submit" className="animating-button">
+						Submit
+					</button>
 				</form>
 			</div>
 			<Footer />

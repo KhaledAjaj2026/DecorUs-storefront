@@ -15,7 +15,9 @@ export default function Root() {
 				<header className="home-header">
 					<h1>Furniture for Any Design</h1>
 					<p>Shop from only the best selection of handcrafted masterpieces</p>
-					<Link to="/shop">Shop Now</Link>
+					<Link to="/shop">
+						<button className="animating-button">Shop Now</button>
+					</Link>
 				</header>
 				<section className="home_featured">
 					<h2>Featured Furniture</h2>
@@ -61,7 +63,9 @@ export default function Root() {
 				</section>
 				<section className="home_shop-now">
 					<h2>Take the Next Step</h2>
-					<Link to="/shop">Shop Now</Link>
+					<Link to="/shop">
+						<button className="animating-button">Shop Now</button>
+					</Link>
 				</section>
 				<footer></footer>
 			</div>

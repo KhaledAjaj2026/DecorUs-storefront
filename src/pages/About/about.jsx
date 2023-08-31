@@ -57,7 +57,9 @@ export default function About() {
 				</section>
 				<section className="about_shop-now">
 					<h2>Discover Our Latest</h2>
-					<Link to="/shop">Shop Now</Link>
+					<Link to="/shop">
+						<button className="animating-button">Shop Now</button>
+					</Link>
 				</section>
 			</div>
 			<ScrollRestoration />

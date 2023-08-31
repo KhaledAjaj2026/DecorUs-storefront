@@ -4,11 +4,13 @@ import NavBar from '../../components/NavBar/navbar';
 import Footer from '../../components/Footer/footer';
 import { ScrollRestoration } from 'react-router-dom';
 import './product-details.css';
+import Cart from '../../components/Cart/cart';
 
 export default function ProductDetails() {
 	return (
 		<>
 			<NavBar />
+			<Cart />
 			<div id="page_product-details">
 				<Link to="/shop" className="back-to-shop">
 					Back to Shop
@@ -22,7 +24,7 @@ export default function ProductDetails() {
 							right now. See?
 						</p>
 						<p className="item-price">$259.99</p>
-						<button className="add-cart">Add to Cart</button>
+						<button className="animating-button">Add to Cart</button>
 					</div>
 				</div>
 			</div>

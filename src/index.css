@@ -43,4 +43,27 @@ a:hover {
 }
 a:active {
   color: #5c6d70;
+}
+
+@keyframes buttonHover {
+  from {
+    box-shadow: 5px 5px 0px 0px #e88873;
+  }
+  to {
+    box-shadow: 0px 0px 0px 5px #e88873;
+  }
+}
+.animating-button {
+  cursor: pointer;
+  border: none;
+  color: #f7eae6;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.2rem;
+  width: 150px;
+  padding: 10px;
+  background: #5c6d70;
+  box-shadow: 5px 5px 0px 0px #e88873;
+}
+.animating-button:hover {
+  animation: 0.2s buttonHover linear forwards;
 }/*# sourceMappingURL=index.css.map */

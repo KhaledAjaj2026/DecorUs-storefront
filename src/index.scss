@@ -2,6 +2,7 @@ $outerSpace: #484a47;
 $payneGray: #5c6d70;
 $oldRose: #a37774;
 $salmon: #e88873;
+$darkMelon: #d7b3a8;
 $melon: #f2d2c9;
 $marble: #f7eae6;
 
@@ -58,5 +59,31 @@ a {
 
     &:active {
         color: $payneGray;
+    }
+}
+
+@keyframes buttonHover {
+    from {
+        box-shadow: 5px 5px 0px 0px $salmon
+    }
+
+    to {
+        box-shadow: 0px 0px 0px 5px $salmon
+    }
+}
+
+.animating-button {
+    cursor: pointer;
+    border: none;
+    color: $marble;
+    font-family: $fontLabel;
+    font-size: 1.2rem;
+    width: 150px;
+    padding: 10px;
+    background: $payneGray;
+    box-shadow: 5px 5px 0px 0px $salmon;
+
+    &:hover {
+        animation: 0.2s buttonHover linear forwards;
     }
 }

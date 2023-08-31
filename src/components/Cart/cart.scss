@@ -1,0 +1,19 @@
+@use '../../index.scss';
+
+#component_cart {
+    background-color: index.$darkMelon;
+    position: fixed;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    right: 0;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: none;
+}
+
+.cart_checkout-button {
+    width: 25%;
+}
