@@ -28,4 +28,12 @@ h2 {
 
 p {
   font-family: "Exo 2", sans-serif;
+}
+
+a {
+  font-family: "Libre Franklin", sans-serif;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=index.css.map */

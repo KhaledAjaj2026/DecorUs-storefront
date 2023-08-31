@@ -43,3 +43,12 @@ h2 {
 p {
     font-family: $fontLabel;
 }
+
+a {
+    font-family: $fontSubitle;
+    color: black;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

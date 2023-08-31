@@ -19,10 +19,10 @@
 
 .navbar_links {
     justify-self: start;
+    font-size: 1.5rem;
 
-    :hover {
-        // override Link-styling disabling underline.
-        text-decoration: underline !important;
+    a {
+        margin: auto 8px
     }
 }
 
