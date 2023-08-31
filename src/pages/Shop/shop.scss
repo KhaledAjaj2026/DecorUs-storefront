@@ -1,6 +1,9 @@
-#route_shop {}
+#route_shop {
+  margin: 2rem;
+  text-align: center;
+}
 
-.products-window {
+.shop_products-window {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
