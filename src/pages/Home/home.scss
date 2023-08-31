@@ -1,6 +1,6 @@
 @use '../../index.scss';
 
-#route_home {
+#page_home {
     text-align: center;
 
     header,
@@ -16,13 +16,32 @@
     }
 }
 
+.home_discover {
+    div {
+        margin-top: 3rem;
+    }
+}
+
+.home_discover_image-left {
+    margin: auto 50px 5rem auto;
+}
+
 .home_handcrafted {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    div {
+        width: 600px;
+        text-align: left;
+    }
 }
 
 .home_reviews {
+    h3 {
+        font-size: 2rem;
+    }
+
     i {
         margin: 1rem;
     }

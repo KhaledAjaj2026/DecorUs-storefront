@@ -10,8 +10,8 @@ export default function Root() {
 	return (
 		<>
 			<NavBar />
-			<div id="route_home">
-				<header className="route_home-header">
+			<div id="page_home">
+				<header className="home-header">
 					<h1>Furniture for Any Design</h1>
 					<p>Shop from only the best selection of handcrafted masterpieces</p>
 					<Link to="/shop">Shop Now</Link>
@@ -27,8 +27,20 @@ export default function Root() {
 				<section className="home_discover">
 					<h2>Discover Yourself</h2>
 					<p>Explore the best pieces that speak to you, and only you</p>
-					<img src={item1} width={300} alt="" />
-					<img src={item2} width={200} alt="" />
+					<div>
+						<img
+							src={item1}
+							width={400}
+							className="home_discover_image-left"
+							alt=""
+						/>
+						<img
+							src={item2}
+							width={350}
+							className="home_discover_image-right"
+							alt=""
+						/>
+					</div>
 				</section>
 				<section className="home_handcrafted">
 					<div>
@@ -39,6 +51,7 @@ export default function Root() {
 				</section>
 				<section className="home_reviews">
 					<h2>{'"Best in the Industry, Hands Down"'}</h2>
+					<h3>★★★★★</h3>
 					<p>Ask our worldwide customers about our dedication to perfection</p>
 					<i>Amazing!</i>
 					<i>Comfortable and Stylish</i>

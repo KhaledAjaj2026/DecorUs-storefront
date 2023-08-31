@@ -6,7 +6,7 @@ $melon: #f2d2c9;
 $marble: #f7eae6;
 
 $fontTitle: 'Cormorant Garamond', serif;
-$fontSubitle: 'Libre Franklin', sans-serif;
+$fontSubtitle: 'Libre Franklin', sans-serif;
 $fontLabel: 'Exo 2', sans-serif;
 $fontDescription: 'Barlow Condensed', sans-serif;
 $fontPrice: 'Cutive Mono', monospace;
@@ -30,25 +30,32 @@ body {
 h1,
 h2 {
     font-family: $fontTitle;
+    margin: 10px;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 p {
     font-family: $fontLabel;
+    font-size: 1.2rem;
 }
 
 a {
-    font-family: $fontSubitle;
-    color: black;
+    font-family: $fontSubtitle;
+    color: $outerSpace;
 
     &:hover {
+        color: black;
         text-decoration: underline;
+    }
+
+    &:active {
+        color: $payneGray;
     }
 }

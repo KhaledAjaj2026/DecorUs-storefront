@@ -9,20 +9,42 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body {
+  margin: 0;
+}
+
 h1,
 h2 {
-  font-family: "Libre Franklin", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 p {
   font-family: "Exo 2", sans-serif;
+  font-size: 1.2rem;
 }
 
-#route_home {
+a {
+  font-family: "Libre Franklin", sans-serif;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#page_home {
   text-align: center;
 }
-#route_home header,
-#route_home section {
+#page_home header,
+#page_home section {
   margin: 10rem auto;
 }
 
@@ -31,12 +53,27 @@ p {
   justify-content: center;
 }
 
+.home_discover div {
+  margin-top: 3rem;
+}
+
+.home_discover_image-left {
+  margin: auto 50px 5rem auto;
+}
+
 .home_handcrafted {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.home_handcrafted div {
+  width: 600px;
+  text-align: left;
+}
 
+.home_reviews h3 {
+  font-size: 2rem;
+}
 .home_reviews i {
   margin: 1rem;
 }/*# sourceMappingURL=home.css.map */
