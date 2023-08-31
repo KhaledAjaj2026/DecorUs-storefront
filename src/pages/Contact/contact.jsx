@@ -1,3 +1,4 @@
+import { ScrollRestoration } from 'react-router-dom';
 import NavBar from '../../components/NavBar/navbar';
 import './contact.css';
 
@@ -28,6 +29,7 @@ export default function Contact() {
 					<button type="submit">Submit</button>
 				</form>
 			</div>
+			<ScrollRestoration />
 		</>
 	);
 }

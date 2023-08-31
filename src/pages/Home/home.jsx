@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, ScrollRestoration } from 'react-router-dom';
 import Item from '../../components/Item/item';
 import NavBar from '../../components/NavBar/navbar';
 import item1 from '../../assets/armchair-2-min.jpg';
@@ -64,6 +64,7 @@ export default function Root() {
 				</section>
 				<footer></footer>
 			</div>
+			<ScrollRestoration />
 		</>
 	);
 }

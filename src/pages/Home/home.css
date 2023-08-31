@@ -34,10 +34,15 @@ p {
 
 a {
   font-family: "Libre Franklin", sans-serif;
-  color: black;
+  color: #484a47;
+  text-decoration: none;
 }
 a:hover {
+  color: black;
   text-decoration: underline;
+}
+a:active {
+  color: #5c6d70;
 }
 
 #page_home {

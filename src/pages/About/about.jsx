@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, ScrollRestoration } from 'react-router-dom';
 import NavBar from '../../components/NavBar/navbar';
 import picOfGramps from '../../assets/armchair-5-min.jpeg';
 import './about.css';
@@ -56,6 +56,7 @@ export default function About() {
 					<Link to="/shop">Shop Now</Link>
 				</section>
 			</div>
+			<ScrollRestoration />
 		</>
 	);
 }

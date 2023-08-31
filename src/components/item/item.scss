@@ -1,6 +1,7 @@
+@use '../../index.scss';
+
 #component_item {
-  width: 250px;
-  height: 300px;
+  width: 18vw;
   margin: 10px;
   border: 1px solid black;
   display: flex;
@@ -17,4 +18,8 @@
 .item-name {
   margin: 2em 0 0 0;
   position: relative;
+}
+
+.item-price {
+  font-family: index.$fontPrice;
 }

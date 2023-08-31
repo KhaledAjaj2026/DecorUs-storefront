@@ -49,6 +49,7 @@ p {
 a {
     font-family: $fontSubtitle;
     color: $outerSpace;
+    text-decoration: none;
 
     &:hover {
         color: black;
