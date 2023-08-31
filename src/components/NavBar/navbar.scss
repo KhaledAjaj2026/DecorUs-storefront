@@ -1,13 +1,35 @@
-#component_navbar {
-    position: fixed;
-    color: black;
-    display: flex;
-    justify-content: flex-start;
-    border: 1px solid black;
-    padding: 10px;
+@use '../../index.scss';
 
-    p {
-        padding: 5px;
-        margin: auto 5px;
+#component_navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 20px;
+    background: index.$melon;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navbar_links,
+.navbar_logo,
+.navbar_cart {
+    align-self: center;
+}
+
+.navbar_links {
+    justify-self: start;
+
+    :hover {
+        // override Link-styling disabling underline.
+        text-decoration: underline !important;
     }
+}
+
+.navbar_logo {
+    justify-self: center;
+}
+
+.navbar_cart {
+    justify-self: end;
 }

@@ -1,10 +1,31 @@
 :root {
   color-scheme: light;
   color: #000;
-  background-color: var(#f7eae6);
+  background-color: #f7eae6;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
 }/*# sourceMappingURL=index.css.map */

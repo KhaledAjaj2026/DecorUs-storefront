@@ -1,12 +1,21 @@
 :root {
   color-scheme: light;
   color: #000;
-  background-color: var(#f7eae6);
+  background-color: #f7eae6;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
 }
 
 #route_home {
@@ -15,7 +24,6 @@
 #route_home header,
 #route_home section {
   margin: 10rem auto;
-  font-family: "Libre Franklin", sans-serif;
 }
 
 .home_featured div {

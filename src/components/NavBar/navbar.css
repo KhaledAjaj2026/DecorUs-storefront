@@ -1,12 +1,63 @@
-#component_navbar {
-  position: fixed;
-  color: black;
-  display: flex;
-  justify-content: flex-start;
-  border: 1px solid black;
-  padding: 10px;
+:root {
+  color-scheme: light;
+  color: #000;
+  background-color: #f7eae6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
-#component_navbar p {
-  padding: 5px;
-  margin: auto 5px;
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+}
+
+#component_navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 20px;
+  background: #f2d2c9;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navbar_links,
+.navbar_logo,
+.navbar_cart {
+  align-self: center;
+}
+
+.navbar_links {
+  justify-self: start;
+}
+.navbar_links :hover {
+  text-decoration: underline !important;
+}
+
+.navbar_logo {
+  justify-self: center;
+}
+
+.navbar_cart {
+  justify-self: end;
 }/*# sourceMappingURL=navbar.css.map */

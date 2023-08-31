@@ -2,21 +2,44 @@ $outerSpace: #484a47;
 $payneGray: #5c6d70;
 $oldRose: #a37774;
 $salmon: #e88873;
-$melon: #e0ac9d;
+$melon: #f2d2c9;
 $marble: #f7eae6;
 
-$fontLabel: 'Libre Franklin', sans-serif;
+$fontTitle: 'Cormorant Garamond', serif;
+$fontSubitle: 'Libre Franklin', sans-serif;
+$fontLabel: 'Exo 2', sans-serif;
 $fontDescription: 'Barlow Condensed', sans-serif;
 $fontPrice: 'Cutive Mono', monospace;
 
 :root {
     color-scheme: light;
     color: #000;
-    background-color: var($marble);
+    background-color: $marble;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: $fontTitle;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-family: $fontLabel;
 }
