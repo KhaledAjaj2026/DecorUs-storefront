@@ -5,6 +5,7 @@ import item1 from '../../assets/armchair-2-min.jpg';
 import item2 from '../../assets/armchair-3-min.jpeg';
 import item3 from '../../assets/armchair-4-min.jpeg';
 import './home.css';
+import Footer from '../../components/Footer/footer';
 
 export default function Root() {
 	return (
@@ -64,6 +65,7 @@ export default function Root() {
 				</section>
 				<footer></footer>
 			</div>
+			<Footer />
 			<ScrollRestoration />
 		</>
 	);

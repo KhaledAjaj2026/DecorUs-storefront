@@ -14,8 +14,4 @@
   width: 250px;
   display: flex;
   flex-direction: column;
-}
-#route_contact form ::before,
-#route_contact form ::after {
-  box-sizing: border-box;
 }/*# sourceMappingURL=contact.css.map */

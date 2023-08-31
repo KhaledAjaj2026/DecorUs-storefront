@@ -1,5 +1,6 @@
 import { ScrollRestoration } from 'react-router-dom';
 import NavBar from '../../components/NavBar/navbar';
+import Footer from '../../components/Footer/footer';
 import './contact.css';
 
 export default function Contact() {
@@ -29,6 +30,7 @@ export default function Contact() {
 					<button type="submit">Submit</button>
 				</form>
 			</div>
+			<Footer />
 			<ScrollRestoration />
 		</>
 	);
