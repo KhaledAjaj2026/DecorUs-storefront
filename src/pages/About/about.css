@@ -1,44 +1,21 @@
 #route_about {
-  margin: 10vh 10vw;
+  margin: 10vh 8vw;
   text-align: center;
 }
-
-.about_beginnings {
+#route_about section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10rem auto;
 }
-.about_beginnings div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#route_about p {
+  width: 35vw;
 }
 
 .about_building-our-brand {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10rem auto;
   flex-direction: row-reverse;
 }
-.about_building-our-brand div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.about_today {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10rem auto;
-}
-.about_today div {
-  display: flex;
+.about_shop-now {
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
 }/*# sourceMappingURL=about.css.map */

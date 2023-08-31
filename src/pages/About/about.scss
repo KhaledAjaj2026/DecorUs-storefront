@@ -1,31 +1,23 @@
 #route_about {
-    margin: 10vh 10vw;
+    margin: 10vh 8vw;
     text-align: center;
-}
 
-@mixin aboutSections {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10rem auto;
-
-    div {
+    section {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        margin: 10rem auto;
+    }
+
+    p {
+        width: 35vw;
     }
 }
 
-.about_beginnings {
-    @include aboutSections();
-}
-
 .about_building-our-brand {
-    @include aboutSections();
     flex-direction: row-reverse;
 }
 
-.about_today {
-    @include aboutSections();
+.about_shop-now {
+    flex-direction: column;
 }

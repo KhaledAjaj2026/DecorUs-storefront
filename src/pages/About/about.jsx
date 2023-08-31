@@ -1,6 +1,8 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
 import NavBar from '../../components/NavBar/navbar';
-import picOfGramps from '../../assets/armchair-5-min.jpeg';
+import picOfGramps from '../../assets/furniture-shop.jpeg';
+import building from '../../assets/building.jpg';
+import armchair from '../../assets/armchair-5-min.jpeg';
 import './about.css';
 
 export default function About() {
@@ -33,7 +35,8 @@ export default function About() {
 						</p>
 					</div>
 					<img
-						src={picOfGramps}
+						src={building}
+						width={500}
 						alt="picture of our founder and dear grandfather"
 					/>
 				</section>
@@ -47,7 +50,8 @@ export default function About() {
 						</p>
 					</div>
 					<img
-						src={picOfGramps}
+						src={armchair}
+						width={500}
 						alt="picture of our founder and dear grandfather"
 					/>
 				</section>
