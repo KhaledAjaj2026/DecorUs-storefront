@@ -10,7 +10,7 @@ export default function Footer() {
 					<img
 						src={logo}
 						className="footer-logo"
-						width={100}
+						width={150}
 						alt="DecorUs logo in footer section"
 					/>
 				</Link>

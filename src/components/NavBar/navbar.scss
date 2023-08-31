@@ -32,4 +32,14 @@
 
 .navbar_cart {
     justify-self: end;
+
+    img {
+        margin: auto 8px;
+    }
+}
+
+.navbar_cart-button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }

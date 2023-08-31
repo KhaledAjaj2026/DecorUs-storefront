@@ -76,4 +76,13 @@ a:active {
 
 .navbar_cart {
   justify-self: end;
+}
+.navbar_cart img {
+  margin: auto 8px;
+}
+
+.navbar_cart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=navbar.css.map */

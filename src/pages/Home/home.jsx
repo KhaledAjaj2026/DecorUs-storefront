@@ -4,8 +4,8 @@ import NavBar from '../../components/NavBar/navbar';
 import item1 from '../../assets/armchair-2-min.jpg';
 import item2 from '../../assets/armchair-3-min.jpeg';
 import item3 from '../../assets/armchair-4-min.jpeg';
-import './home.css';
 import Footer from '../../components/Footer/footer';
+import './home.css';
 
 export default function Root() {
 	return (

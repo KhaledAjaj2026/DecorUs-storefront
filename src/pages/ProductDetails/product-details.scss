@@ -1,3 +1,32 @@
+@use '../../index.scss';
+
 #page_product-details {
-    color: red;
+    margin: 10vh 8vw;
+}
+
+.back-to-shop {
+    font-size: 1.2rem;
+
+    &:before {
+        content: '← '
+    }
+}
+
+.product-details_window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        margin: 40px;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    h3 {
+        font-family: index.$fontLabel;
+        font-size: 3rem;
+    }
 }
