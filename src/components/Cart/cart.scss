@@ -1,17 +1,30 @@
 @use '../../index.scss';
 
+@keyframes cartAppear {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 70%;
+    }
+}
+
+.cart-appear {
+    animation: 0.7s cartAppear ease-in-out forwards;
+}
+
 #component_cart {
     background-color: index.$darkMelon;
     position: fixed;
-    border: 1px solid black;
-    border-top: none;
-    border-right: none;
     right: 0;
+    left: 100%;
+    padding: 20px;
+    border-left: 1px solid black;
     width: 30%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    display: none;
 }
 
 .cart_checkout-button {
