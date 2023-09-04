@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import itemImage from '/armchair-1-min.jpeg';
-import './item.css';
+import './productitem.css';
 
 export default function Item() {
 	return (
