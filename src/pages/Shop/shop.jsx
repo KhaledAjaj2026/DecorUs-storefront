@@ -12,7 +12,6 @@ export default function Shop() {
 				<h1 className="shop-title">Only The Best</h1>
 				<p>Shop our careful selection of perfection & mastery</p>
 				<div className="shop_products-window">
-					{/* TODO: implement dynamic loading of all products via loop. */}
 					<Item />
 					<Item />
 					<Item />
