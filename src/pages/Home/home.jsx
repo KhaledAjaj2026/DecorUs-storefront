@@ -55,7 +55,7 @@ export default function Root() {
 				<section className="home_reviews">
 					<h2>{'"Best in the Industry, Hands Down"'}</h2>
 					<h3>★★★★★</h3>
-					<p>Ask our worldwide customers about our dedication to perfection</p>
+					<p>Ask our world-wide customers about our dedication to perfection</p>
 					<i>Amazing!</i>
 					<i>Comfortable and Stylish</i>
 					<i>Nothing like it!</i>
