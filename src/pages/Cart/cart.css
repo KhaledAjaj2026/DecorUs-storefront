@@ -68,52 +68,68 @@ a:active {
   animation: 0.2s buttonHover linear forwards;
 }
 
-#component_navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  padding: 20px;
-  background: #f2d2c9;
-  border-bottom: 4px ridge #e3c6bd;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+#page_cart {
+  margin: 10vh 8vw;
+  text-align: center;
+}
+#page_cart img {
+  border: 2px ridge #a37774;
 }
 
-.navbar_links,
-.navbar_logo,
-.navbar_cart {
-  align-self: center;
+.cart_items {
+  margin: 3rem auto;
 }
 
-.navbar_links {
-  justify-self: start;
-  font-size: 1.5rem;
-}
-.navbar_links a {
-  margin: auto 8px;
-}
-
-.navbar_logo {
-  justify-self: center;
+.cart_item-preview {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
 }
 
-.navbar_cart {
-  justify-self: end;
-}
-.navbar_cart img {
-  margin: auto 8px;
+.cart_item-count {
+  font-size: 1.7rem;
 }
 
-.navbar_cart-button {
-  background: none;
-  box-shadow: none;
-  border: none;
-  cursor: pointer;
+.cart_item-information {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cart_item-information span {
+  margin: 5px auto;
 }
 
-.cart-count {
-  font-family: "Libre Franklin", sans-serif;
-  position: absolute;
-  right: 3.5%;
-  top: 45%;
-}/*# sourceMappingURL=navbar.css.map */
+.cart_item-name {
+  font-size: 2rem;
+  font-family: "Exo 2", sans-serif;
+}
+
+.cart_item-price {
+  font-size: 1.2rem;
+  font-family: "Cutive Mono", monospace;
+}
+
+.cart_checkout {
+  margin: 2rem 2.5rem;
+}
+
+.cart_total-label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.cart_total-price {
+  font-family: "Cutive Mono", monospace;
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.cart_checkout-button {
+  margin: 2.5rem auto 2rem;
+}/*# sourceMappingURL=cart.css.map */

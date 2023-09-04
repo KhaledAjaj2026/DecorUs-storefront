@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { Link } from 'react-router-dom';
 import item1 from '../../assets/armchair-3-min.jpeg';
 import item2 from '../../assets/armchair-4-min.jpeg';
 import item3 from '../../assets/armchair-2-min.jpg';
@@ -24,25 +25,27 @@ export default function MiniCart({ cartShow }) {
 						<img src={item2} width={160} alt="armchair gray" />
 						<div className="minicart_item-information">
 							<span className="minicart_item-name">White Fabric</span>
-							<span className="minicart_item-price">$124.99</span>
+							<span className="minicart_item-price">$234.99</span>
 						</div>
 					</div>
 					<div className="minicart_item-preview">
 						<img src={item3} width={160} alt="armchair gray" />
 						<div className="minicart_item-information">
 							<span className="minicart_item-name">Salmon Mesh</span>
-							<span className="minicart_item-price">$124.99</span>
+							<span className="minicart_item-price">$549.99</span>
 						</div>
 					</div>
 				</div>
 				<div className="minicart_checkout">
 					<div className="minicart_total">
 						<h3 className="minicart_total-label">Total:</h3>
-						<span className="minicart_total-price">$748.99</span>
+						<span className="minicart_total-price">$909.97</span>
 					</div>
-					<button className="minicart_checkout-button animating-button">
-						Checkout
-					</button>
+					<Link to="/cart">
+						<button className="minicart_checkout-button animating-button">
+							Checkout
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

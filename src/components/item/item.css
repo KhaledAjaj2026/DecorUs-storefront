@@ -71,7 +71,7 @@ a:active {
 #component_item {
   width: 250px;
   margin: 10px;
-  border: 3px ridge #d7b3a8;
+  border: 3px ridge #e3c6bd;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -22,7 +22,9 @@ export default function ProductDetails() {
 							right now. See?
 						</p>
 						<p className="item-price">$259.99</p>
-						<button className="animating-button">Add to Cart</button>
+						<Link to="/cart">
+							<button className="animating-button">Add to Cart</button>
+						</Link>
 					</div>
 				</div>
 			</div>

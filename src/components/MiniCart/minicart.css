@@ -81,11 +81,11 @@ a:active {
 }
 
 #component_minicart {
-  background-color: #d7b3a8;
+  background-color: #e3c6bd;
   position: fixed;
   right: 0;
   left: 100%;
-  border-left: 3px ridge #d7b3a8;
+  border-left: 3px ridge #e3c6bd;
   width: 30%;
   height: 85%;
   display: flex;

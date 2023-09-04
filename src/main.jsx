@@ -7,6 +7,7 @@ import Shop from './pages/Shop/shop';
 import ProductDetails from './pages/ProductDetails/product-details';
 import About from './pages/About/about';
 import Contact from './pages/Contact/contact';
+import Cart from './pages/Cart/cart';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -33,6 +34,11 @@ const router = createBrowserRouter([
 	{
 		path: 'contact',
 		element: <Contact />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: 'cart',
+		element: <Cart />,
 		errorElement: <ErrorPage />,
 	},
 ]);
