@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import itemImage from '../../assets/armchair-1-min.jpeg';
-import NavBar from '../../components/NavBar/navbar';
-import Footer from '../../components/Footer/footer';
+import itemImage from '/armchair-1-min.jpeg';
+import NavBar from '/src/components/NavBar/navbar.jsx';
+import Footer from '/src/components/Footer/footer.jsx';
 import { ScrollRestoration } from 'react-router-dom';
 import './product-details.css';
 

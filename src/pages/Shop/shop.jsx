@@ -1,6 +1,6 @@
 import { ScrollRestoration } from 'react-router-dom';
 import Item from '/src/components/Item/item.jsx';
-import NavBar from '/src/components/NavBar/navbar';
+import NavBar from '/src/components/NavBar/navbar.jsx';
 import Footer from '/src/components/Footer/footer';
 import './shop.css';
 

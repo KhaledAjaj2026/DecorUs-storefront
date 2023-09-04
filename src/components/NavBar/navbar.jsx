@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MiniCart from '../MiniCart/minicart';
-import logo from '/src/assets/logo-no-background.svg';
-import cart from '/src/assets/bag-2.svg';
-import account from '/src/assets/account-2.svg';
+import logo from '/logo-no-background.svg';
+import cart from '/bag-2.svg';
+import account from '/account-2.svg';
 import './navbar.css';
 
 export default function NavBar() {
