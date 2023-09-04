@@ -1,5 +1,5 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
-import Item from '/src/components/Item/item.jsx';
+import ProductItem from '/src/components/Item/item.jsx';
 import NavBar from '/src/components/NavBar/navbar';
 import item1 from '/armchair-2-min.jpg';
 import item2 from '/armchair-3-min.jpeg';
@@ -22,9 +22,9 @@ export default function Root() {
 				<section className="home_featured">
 					<h2>Featured Furniture</h2>
 					<div>
-						<Item />
-						<Item />
-						<Item />
+						<ProductItem />
+						<ProductItem />
+						<ProductItem />
 					</div>
 				</section>
 				<section className="home_discover">
