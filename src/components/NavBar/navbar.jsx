@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Cart from '../Cart/cart';
+import MiniCart from '../MiniCart/minicart';
 import logo from '/src/assets/logo-no-background.svg';
 import cart from '/src/assets/bag-2.svg';
 import account from '/src/assets/account-2.svg';
@@ -30,11 +30,11 @@ export default function NavBar() {
 					<img src={account} width={40} alt="" />
 					<button className="navbar_cart-button" onClick={handleCartShow}>
 						<img src={cart} width={40} alt="" />
-						<span className="cart-count">0</span>
+						{/* <span className="cart-count">0</span> */}
 					</button>
 				</div>
 			</nav>
-			<Cart cartShow={cartShow} />
+			<MiniCart cartShow={cartShow} />
 		</>
 	);
 }

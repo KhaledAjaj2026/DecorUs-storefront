@@ -76,23 +76,78 @@ a:active {
     left: 70%;
   }
 }
-.cart-appear {
+.minicart-appear {
   animation: 0.7s cartAppear ease-in-out forwards;
 }
 
-#component_cart {
+#component_minicart {
   background-color: #d7b3a8;
   position: fixed;
   right: 0;
   left: 100%;
-  padding: 20px;
   border-left: 3px ridge #d7b3a8;
   width: 30%;
-  height: 100%;
+  height: 85%;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+}
+#component_minicart h2 {
+  margin: 2rem 2.5rem;
+}
+#component_minicart img {
+  border: 2px ridge #a37774;
 }
 
-.cart_checkout-button {
+.minicart_items {
+  margin: 2rem auto 3rem;
+}
+
+.minicart_item-preview {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.minicart_item-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.minicart_item-information span {
+  margin: 5px auto;
+}
+
+.minicart_item-name {
+  font-size: 1.2rem;
+  font-family: "Exo 2", sans-serif;
+}
+
+.minicart_item-price {
+  font-size: 1.2rem;
+  font-family: "Cutive Mono", monospace;
+}
+
+.minicart_checkout {
+  margin: 2rem 2.5rem;
+}
+
+.minicart_total-label {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.minicart_total-price {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.minicart_checkout-button {
   width: 25%;
-}/*# sourceMappingURL=cart.css.map */
+  margin: 1.5rem auto 2rem;
+}/*# sourceMappingURL=minicart.css.map */
