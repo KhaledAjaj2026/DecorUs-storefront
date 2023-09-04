@@ -90,6 +90,7 @@ a:active {
 }
 .product-details_window img {
   width: 500px;
+  border: 8px ridge #a37774;
 }
 .product-details_window h3 {
   font-family: "Exo 2", sans-serif;

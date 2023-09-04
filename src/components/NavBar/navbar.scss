@@ -6,7 +6,7 @@
     z-index: 1;
     padding: 20px;
     background: index.$melon;
-    border-bottom: 1px solid black;
+    border-bottom: 4px ridge index.$darkMelon;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
