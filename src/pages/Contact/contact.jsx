@@ -1,6 +1,6 @@
 import { ScrollRestoration } from 'react-router-dom';
-import NavBar from '../../components/NavBar/navbar';
-import Footer from '../../components/Footer/footer';
+import NavBar from '/src/components/NavBar/navbar';
+import Footer from '/src/components/Footer/footer';
 import './contact.css';
 
 export default function Contact() {

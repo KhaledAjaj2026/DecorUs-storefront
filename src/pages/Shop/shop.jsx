@@ -1,7 +1,7 @@
 import { ScrollRestoration } from 'react-router-dom';
-import Item from '../../components/Item/item';
-import NavBar from '../../components/NavBar/navbar';
-import Footer from '../../components/Footer/footer';
+import Item from '/src/components/Item/item';
+import NavBar from '/src/components/NavBar/navbar';
+import Footer from '/src/components/Footer/footer';
 import './shop.css';
 
 export default function Shop() {

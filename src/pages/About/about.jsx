@@ -1,8 +1,8 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
-import NavBar from '../../components/NavBar/navbar';
-import picOfGramps from '../../assets/furniture-shop.jpeg';
-import building from '../../assets/building.jpg';
-import armchair from '../../assets/armchair-5-min.jpeg';
+import NavBar from '/src/components/NavBar/navbar';
+import picOfGramps from '/src/assets/furniture-shop.jpeg';
+import building from '/src/assets/building.jpg';
+import armchair from '/src/assets/armchair-5-min.jpeg';
 import './about.css';
 
 export default function About() {
