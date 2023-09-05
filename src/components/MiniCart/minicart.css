@@ -81,6 +81,7 @@ a:active {
 }
 
 #component_minicart {
+  text-align: center;
   background-color: #e3c6bd;
   position: fixed;
   right: 0;

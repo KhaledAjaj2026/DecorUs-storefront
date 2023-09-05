@@ -1,9 +1,7 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
 import ProductItem from '/src/components/ProductItem/productitem.jsx';
 import NavBar from '/src/components/NavBar/navbar';
-import item1 from '/furniture/armchair-2-min.jpg';
-import item2 from '/furniture/armchair-3-min.jpg';
-import item3 from '/furniture/armchair-4-min.jpg';
+import furnitureData from '/src/productsforsale.json';
 import Footer from '/src/components/Footer/footer';
 import './home.css';
 
@@ -22,9 +20,21 @@ export default function Root() {
 				<section className="home_featured">
 					<h2>Featured Furniture</h2>
 					<div>
-						<ProductItem />
-						<ProductItem />
-						<ProductItem />
+						<ProductItem
+							name={furnitureData[17].name}
+							location={furnitureData[17].location}
+							price={furnitureData[17].price}
+						/>
+						<ProductItem
+							name={furnitureData[7].name}
+							location={furnitureData[7].location}
+							price={furnitureData[7].price}
+						/>
+						<ProductItem
+							name={furnitureData[2].name}
+							location={furnitureData[2].location}
+							price={furnitureData[2].price}
+						/>
 					</div>
 				</section>
 				<section className="home_discover">
@@ -32,13 +42,13 @@ export default function Root() {
 					<p>Explore the best pieces that speak to you, and only you</p>
 					<div>
 						<img
-							src={item1}
+							src={furnitureData[1].location}
 							width={400}
 							className="home_discover_image-left"
 							alt=""
 						/>
 						<img
-							src={item2}
+							src={furnitureData[12].location}
 							width={350}
 							className="home_discover_image-right"
 							alt=""
@@ -50,7 +60,7 @@ export default function Root() {
 						<h2>Carefully Handcrafted Masterpieces</h2>
 						<p>Our stock is entirely unique, made by our in-house masters</p>
 					</div>
-					<img src={item3} width={600} alt="" />
+					<img src={furnitureData[9].location} width={500} alt="" />
 				</section>
 				<section className="home_reviews">
 					<h2>{'"Best in the Industry, Hands Down"'}</h2>

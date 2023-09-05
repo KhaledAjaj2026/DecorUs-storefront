@@ -23,7 +23,6 @@ export default function Shop() {
 					<ProductItem />
 					<ProductItem />
 					<ProductItem />
-					<ProductItem />
 				</div>
 			</div>
 			<Footer />

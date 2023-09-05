@@ -14,13 +14,13 @@ export default function ProductDetails() {
 					Back to Shop
 				</Link>
 				<div className="product-details_window">
-					<img src={furnitureData[0].location} className="item-img" alt="" />
+					<img src={furnitureData[6].location} className="item-img" alt="" />
 					<div>
-						<h3 className="product-details_name">{furnitureData[0].name}</h3>
+						<h3 className="product-details_name">{furnitureData[6].name}</h3>
 						<p className="product-details_description">
-							{furnitureData[0].description}
+							{furnitureData[6].description}
 						</p>
-						<p className="item-price">{furnitureData[0].price}</p>
+						<p className="item-price">{furnitureData[6].price}</p>
 						<Link to="/cart">
 							<button className="animating-button">Add to Cart</button>
 						</Link>

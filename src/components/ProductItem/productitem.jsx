@@ -1,14 +1,14 @@
+/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
-import furnitureData from '/src/productsforsale.json';
 import './productitem.css';
 
-export default function Item() {
+export default function ProductItem({ name, location, price }) {
 	return (
 		<Link to="/product-details">
 			<div id="component_item">
-				<img src={furnitureData[0].location} className="item-img" alt="" />
-				<p className="item-name">{furnitureData[0].name}</p>
-				<p className="item-price">{furnitureData[0].price}</p>
+				<img src={location} className="item-img" alt="" />
+				<p className="item-name">{name}</p>
+				<p className="item-price">{price}</p>
 			</div>
 		</Link>
 	);
