@@ -14,6 +14,7 @@ export default function Shop() {
 					key={i}
 					location={furnitureData[i].location}
 					name={furnitureData[i].name}
+					description={furnitureData[i].description}
 					price={furnitureData[i].price}
 				/>
 			);

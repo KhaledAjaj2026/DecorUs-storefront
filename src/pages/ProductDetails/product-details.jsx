@@ -1,11 +1,14 @@
-import { Link } from 'react-router-dom';
-import furnitureData from '/src/productsforsale.json';
+/* eslint-disable react/prop-types */
+import { Link, useLocation } from 'react-router-dom';
 import NavBar from '/src/components/NavBar/navbar.jsx';
 import Footer from '/src/components/Footer/footer.jsx';
 import { ScrollRestoration } from 'react-router-dom';
 import './product-details.css';
 
 export default function ProductDetails() {
+	const location = useLocation();
+	const furniture = location.state.data;
+
 	return (
 		<>
 			<NavBar />
@@ -14,13 +17,17 @@ export default function ProductDetails() {
 					Back to Shop
 				</Link>
 				<div className="product-details_window">
-					<img src={furnitureData[6].location} className="item-img" alt="" />
+					<img
+						src={furniture.location}
+						className="item-img"
+						alt={furniture.name}
+					/>
 					<div>
-						<h3 className="product-details_name">{furnitureData[6].name}</h3>
+						<h3 className="product-details_name">{furniture.name}</h3>
 						<p className="product-details_description">
-							{furnitureData[6].description}
+							{furniture.description}
 						</p>
-						<p className="item-price">{furnitureData[6].price}</p>
+						<p className="item-price">{furniture.price}</p>
 						<Link to="/cart">
 							<button className="animating-button">Add to Cart</button>
 						</Link>

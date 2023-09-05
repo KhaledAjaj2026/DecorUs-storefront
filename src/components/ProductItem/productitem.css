@@ -76,6 +76,7 @@ a:active {
   border: 3px ridge #e3c6bd;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
