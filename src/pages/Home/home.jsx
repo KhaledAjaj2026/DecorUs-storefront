@@ -2,8 +2,8 @@ import { Link, ScrollRestoration } from 'react-router-dom';
 import ProductItem from '/src/components/ProductItem/productitem.jsx';
 import NavBar from '/src/components/NavBar/navbar';
 import item1 from '/furniture/armchair-2-min.jpg';
-import item2 from '/furniture/armchair-3-min.jpeg';
-import item3 from '/furniture/armchair-4-min.jpeg';
+import item2 from '/furniture/armchair-3-min.jpg';
+import item3 from '/furniture/armchair-4-min.jpg';
 import Footer from '/src/components/Footer/footer';
 import './home.css';
 
