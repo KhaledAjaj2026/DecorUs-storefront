@@ -1,8 +1,65 @@
 [
 	{
-		"name": "Brown Leather",
+		"name": "Brown Leather Armchair",
+		"location": "/furniture/armchair-1-min.jpg",
 		"type": "armchair",
 		"description": "Designed for the most studious of bookworms, this chair will make you forget where you are as you dive into your favorite novel.",
 		"price": "$124.99"
+	},
+	{
+		"name": "Coral Fabric Armchair",
+		"location": "/furniture/armchair-2-min.jpg",
+		"type": "armchair",
+		"description": "Sink into this one-of-a-kind comfort chairs and enjoy your afternoons like never before.",
+		"price": "$213.99"
+	},
+	{
+		"name": "Mosaic Fabric Armchair",
+		"location": "/furniture/armchair-3-min.jpg",
+		"type": "armchair",
+		"description": "A humble piece of furniture for the humble craftsman, take a break from your crafts on this comforting chair.",
+		"price": "$199.99"
+	},
+	{
+		"name": "Marble Canvas Armchair",
+		"location": "/furniture/armchair-4-min.jpg",
+		"type": "armchair",
+		"description": "Our best armchair yet, it wraps around you as you sit and keeps you warm as you relax, boasting our finest craftsmanship yet.",
+		"price": "$479.99"
+	},
+	{
+		"name": "Dark Leather Armchair",
+		"location": "/furniture/armchair-4-min.jpg",
+		"type": "armchair",
+		"description": "For the classic look in any reading room or office, its sturdy build goes well with its modest design.",
+		"price": "$119.99"
+	},
+	{
+		"name": "Gray Pine Bedframe",
+		"location": "/furniture/bed-1-min.jpg",
+		"type": "bed",
+		"description": "The basic bed, a most humble choice of furniture that gives you the quality of sleep you need.",
+		"price": "$769.99"
+	},
+	{
+		"name": "Dark Oak Bedframe",
+		"location": "/furniture/bed-2-min.jpg",
+		"type": "bed",
+		"description": "Dark yet uplifting, the high frame allows for easy storage underneath while elevating your slumber.",
+		"price": "$459.99"
+	},
+	{
+		"name": "Light Brown Bedframe",
+		"location": "/furniture/bed-3-min.jpg",
+		"type": "bed",
+		"description": "For the minimalist who loves the intricacy of simple designs, this bed gives you the necessities of a good night's sleep.",
+		"price": "$price.99"
+	},
+	{
+		"name": "Name",
+		"location": "/furniture/",
+		"type": "armchair",
+		"description": "describe",
+		"price": "$price.99"
 	}
 ]
