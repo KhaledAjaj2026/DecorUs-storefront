@@ -1,7 +1,7 @@
 import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
 import furnitureData from '/src/productsforsale.json';
-import { Link } from 'react-router-dom';
+import { Link, ScrollRestoration } from 'react-router-dom';
 import './cart.css';
 
 export default function Cart() {
@@ -61,6 +61,7 @@ export default function Cart() {
 				</div>
 			</div>
 			<Footer />
+			<ScrollRestoration />
 		</>
 	);
 }
