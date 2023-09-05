@@ -87,7 +87,7 @@ a:active {
   left: 100%;
   border-left: 3px ridge #e3c6bd;
   width: 30%;
-  height: 85%;
+  height: 89vh;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;

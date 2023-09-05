@@ -1,5 +1,6 @@
 import { Link, ScrollRestoration } from 'react-router-dom';
 import NavBar from '/src/components/NavBar/navbar';
+import Footer from '/src/components/Footer/footer';
 import picOfGramps from '/furniture-shop.jpeg';
 import building from '/building.jpg';
 import armchair from '/armchair-5-min.jpeg';
@@ -62,6 +63,7 @@ export default function About() {
 					</Link>
 				</section>
 			</div>
+			<Footer />
 			<ScrollRestoration />
 		</>
 	);
