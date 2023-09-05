@@ -35,13 +35,6 @@
 		"price": "$119.99"
 	},
 	{
-		"name": "Gray Pine Bedframe",
-		"location": "/furniture/bed-1-min.jpg",
-		"type": "bed",
-		"description": "The basic bed, a most humble choice of furniture that gives you the quality of sleep you need.",
-		"price": "$769.99"
-	},
-	{
 		"name": "Dark Oak Bedframe",
 		"location": "/furniture/bed-2-min.jpg",
 		"type": "bed",
