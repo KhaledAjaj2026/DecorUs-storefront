@@ -71,11 +71,14 @@ a:active {
 #component_item {
   width: 250px;
   margin: 10px;
-  padding: 10px;
   border: 3px ridge #e3c6bd;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.item-details {
+  margin: 10px;
 }
 
 .item-img {
