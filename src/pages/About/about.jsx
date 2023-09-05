@@ -3,7 +3,7 @@ import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
 import picOfGramps from '/furniture-shop.jpeg';
 import building from '/building.jpg';
-import armchair from '/armchair-5-min.jpeg';
+import armchair from '/furniture/armchair-5-min.jpeg';
 import './about.css';
 
 export default function About() {

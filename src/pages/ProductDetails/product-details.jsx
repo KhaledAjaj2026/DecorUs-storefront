@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import itemImage from '/armchair-1-min.jpeg';
+import itemImage from '/furniture/armchair-1-min.jpeg';
 import NavBar from '/src/components/NavBar/navbar.jsx';
 import Footer from '/src/components/Footer/footer.jsx';
 import { ScrollRestoration } from 'react-router-dom';

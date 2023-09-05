@@ -1,8 +1,8 @@
 import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
-import item1 from '/armchair-3-min.jpeg';
-import item2 from '/armchair-4-min.jpeg';
-import item3 from '/armchair-2-min.jpg';
+import item1 from '/furniture/armchair-3-min.jpeg';
+import item2 from '/furniture/armchair-4-min.jpeg';
+import item3 from '/furniture/armchair-2-min.jpg';
 import { Link } from 'react-router-dom';
 import './cart.css';
 
