@@ -1,8 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
-import item1 from '/furniture/armchair-3-min.jpeg';
-import item2 from '/furniture/armchair-4-min.jpeg';
-import item3 from '/furniture/armchair-2-min.jpg';
+import furnitureData from '/src/productsforsale.json';
 import './minicart.css';
 
 export default function MiniCart({ cartShow }) {
@@ -15,24 +13,48 @@ export default function MiniCart({ cartShow }) {
 				<h2>Cart</h2>
 				<div className="minicart_items">
 					<div className="minicart_item-preview">
-						<img src={item1} width={160} alt="armchair gray" />
+						<img
+							src={furnitureData[13].location}
+							width={160}
+							alt="armchair gray"
+						/>
 						<div className="minicart_item-information">
-							<span className="minicart_item-name">Blue Canvas</span>
-							<span className="minicart_item-price">$124.99</span>
+							<span className="minicart_item-name">
+								{furnitureData[13].name}
+							</span>
+							<span className="minicart_item-price">
+								{furnitureData[13].price}
+							</span>
 						</div>
 					</div>
 					<div className="minicart_item-preview">
-						<img src={item2} width={160} alt="armchair gray" />
+						<img
+							src={furnitureData[7].location}
+							width={160}
+							alt="armchair gray"
+						/>
 						<div className="minicart_item-information">
-							<span className="minicart_item-name">White Fabric</span>
-							<span className="minicart_item-price">$234.99</span>
+							<span className="minicart_item-name">
+								{furnitureData[7].name}
+							</span>
+							<span className="minicart_item-price">
+								{furnitureData[7].price}
+							</span>
 						</div>
 					</div>
 					<div className="minicart_item-preview">
-						<img src={item3} width={160} alt="armchair gray" />
+						<img
+							src={furnitureData[10].location}
+							width={160}
+							alt="armchair gray"
+						/>
 						<div className="minicart_item-information">
-							<span className="minicart_item-name">Salmon Mesh</span>
-							<span className="minicart_item-price">$549.99</span>
+							<span className="minicart_item-name">
+								{furnitureData[10].name}
+							</span>
+							<span className="minicart_item-price">
+								{furnitureData[10].price}
+							</span>
 						</div>
 					</div>
 				</div>
