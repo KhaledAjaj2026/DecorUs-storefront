@@ -10,7 +10,7 @@ export default function Contact() {
 			<div id="route_contact">
 				<h1>Get In Touch</h1>
 				<p>Let us know of anything you need, we are always happy to help.</p>
-				<form action="">
+				<form>
 					<label htmlFor="customer-name">Name: </label>
 					<input
 						type="text"
