@@ -3,18 +3,43 @@
 #component_navbar {
     position: sticky;
     top: 0;
+    height: 100px;
     z-index: 1;
-    padding: 20px;
     background: index.$melon;
     border-bottom: 4px ridge index.$darkMelon;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    * {
+        margin: 7px 10px;
+    }
 }
 
+.navbar_mobile-links,
 .navbar_links,
 .navbar_logo,
 .navbar_cart {
     align-self: center;
+}
+
+.navbar_mobile-links {
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar_mobile-links_links {
+    display: none;
+    flex-direction: column;
+    position: sticky;
+    top: 104px;
+    z-index: 2;
+    background-color: index.$darkMelon;
+    font-size: 1.7rem;
+    border-bottom: 4px ridge index.$darkMelon;
+
+    a {
+        margin: 5px;
+    }
 }
 
 .navbar_links {
@@ -23,6 +48,18 @@
 
     a {
         margin: auto 8px
+    }
+}
+
+@media screen and (max-width: 1149px) {
+    .navbar_links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .navbar_mobile-links {
+        display: none;
     }
 }
 

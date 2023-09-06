@@ -5,7 +5,7 @@ import furnitureData from '/src/productsforsale.json';
 import Footer from '/src/components/Footer/footer';
 import './home.css';
 
-export default function Root() {
+export default function Home() {
 	return (
 		<>
 			<NavBar />

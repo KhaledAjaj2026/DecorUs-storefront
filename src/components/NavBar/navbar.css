@@ -20,7 +20,7 @@ h2 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 7vw;
 }
 
 h2 {
@@ -71,18 +71,41 @@ a:active {
 #component_navbar {
   position: sticky;
   top: 0;
+  height: 100px;
   z-index: 1;
-  padding: 20px;
   background: #f2d2c9;
   border-bottom: 4px ridge #e3c6bd;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+#component_navbar * {
+  margin: 7px 10px;
+}
 
+.navbar_mobile-links,
 .navbar_links,
 .navbar_logo,
 .navbar_cart {
   align-self: center;
+}
+
+.navbar_mobile-links {
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar_mobile-links_links {
+  display: none;
+  flex-direction: column;
+  position: sticky;
+  top: 104px;
+  z-index: 2;
+  background-color: #e3c6bd;
+  font-size: 1.7rem;
+  border-bottom: 4px ridge #e3c6bd;
+}
+.navbar_mobile-links_links a {
+  margin: 5px;
 }
 
 .navbar_links {
@@ -93,6 +116,16 @@ a:active {
   margin: auto 8px;
 }
 
+@media screen and (max-width: 1149px) {
+  .navbar_links {
+    display: none;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .navbar_mobile-links {
+    display: none;
+  }
+}
 .navbar_logo {
   justify-self: center;
 }
