@@ -46,14 +46,12 @@ export default function Home() {
 					<div>
 						<img
 							src={furnitureData[1].location}
-							width={400}
-							className="home_discover_image-left"
+							id="discover_image-left"
 							alt=""
 						/>
 						<img
 							src={furnitureData[11].location}
-							width={350}
-							className="home_discover_image-right"
+							id="discover_image-right"
 							alt=""
 						/>
 					</div>
@@ -63,7 +61,7 @@ export default function Home() {
 						<h2>Carefully Handcrafted Masterpieces</h2>
 						<p>Our stock is entirely unique, made by our in-house masters</p>
 					</div>
-					<img src={furnitureData[15].location} width={500} alt="" />
+					<img src={furnitureData[15].location} id="handcrafted-image" alt="" />
 				</section>
 				<section className="home_reviews">
 					<h2>{'"Best in the Industry, Hands Down"'}</h2>

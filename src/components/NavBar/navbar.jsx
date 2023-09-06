@@ -4,7 +4,6 @@ import MiniCart from '../MiniCart/minicart';
 import logo from '/logo-no-background.svg';
 import menuIcon from '/mobile-menu.svg';
 import cart from '/bag-2.svg';
-import account from '/account-2.svg';
 import './navbar.css';
 
 export default function NavBar() {
@@ -25,13 +24,9 @@ export default function NavBar() {
 		<>
 			<nav id="component_navbar">
 				<div className="navbar_mobile-links">
-					<a
-						href="javascript:void(0)"
-						className="navbar_mobile-links_icon"
-						onClick={handleMenuShow}
-					>
-						<img src={menuIcon} width={50} className="hamburger-icon" />
-					</a>
+					<button className="navbar_mobile-links_icon" onClick={handleMenuShow}>
+						<img src={menuIcon} width={50} id="hamburger-icon" />
+					</button>
 				</div>
 				<div className="navbar_links">
 					<Link to="/">Home</Link>
@@ -40,13 +35,16 @@ export default function NavBar() {
 					<Link to="/contact">Contact</Link>
 				</div>
 				<Link to="/" className="navbar_logo">
-					<img src={logo} width={120} alt="DecorUs logo" />
+					<img
+						src={logo}
+						id="navbar-logo_image"
+						width={120}
+						alt="DecorUs logo"
+					/>
 				</Link>
 				<div className="navbar_cart">
-					<img src={account} width={40} alt="" />
 					<button className="navbar_cart-button" onClick={handleCartShow}>
 						<img src={cart} width={40} alt="" />
-						{/* <span className="cart-count">0</span> */}
 					</button>
 				</div>
 			</nav>

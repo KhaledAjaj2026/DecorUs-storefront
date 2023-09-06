@@ -26,6 +26,7 @@ $fontPrice: 'Cutive Mono', monospace;
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -38,9 +39,6 @@ h1 {
     font-size: 5rem;
 }
 
-// @media screen and (min-width: ) {
-
-// }
 
 h2 {
     font-size: 3rem;
@@ -49,6 +47,20 @@ h2 {
 p {
     font-family: $fontLabel;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 a {

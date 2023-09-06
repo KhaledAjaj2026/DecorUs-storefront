@@ -1,6 +1,7 @@
 @use '../../index.scss';
 
 #page_home {
+    margin: 2rem;
     text-align: center;
 
     header,
@@ -23,9 +24,28 @@
     }
 }
 
-.home_discover_image-left {
+#discover_image-left {
+    // width: 400px;
+    width: 50%;
     margin: auto 50px 5rem auto;
 }
+
+#discover_image-right {
+    // width: 350px;
+    width: 45%;
+}
+
+// @media screen and (max-width: 500px) {
+//     #discover_image-left {
+//         width: 200px;
+//         margin: auto 50px 2rem auto;
+//     }
+
+//     #discover_image-right {
+//         width: 175px;
+//         margin-left: 50px;
+//     }
+// }
 
 .home_handcrafted {
     display: flex;
@@ -35,6 +55,16 @@
     div {
         width: 600px;
         text-align: left;
+    }
+}
+
+#handcrafted-image {
+    width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+    #handcrafted-image {
+        width: 200px;
     }
 }
 

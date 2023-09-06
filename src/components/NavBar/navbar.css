@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -20,7 +21,7 @@ h2 {
 }
 
 h1 {
-  font-size: 7vw;
+  font-size: 5rem;
 }
 
 h2 {
@@ -32,6 +33,17 @@ p {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
 a {
   font-family: "Libre Franklin", sans-serif;
   color: #484a47;
@@ -71,7 +83,6 @@ a:active {
 #component_navbar {
   position: sticky;
   top: 0;
-  height: 100px;
   z-index: 1;
   background: #f2d2c9;
   border-bottom: 4px ridge #e3c6bd;
@@ -93,12 +104,16 @@ a:active {
   overflow: hidden;
   position: relative;
 }
+.navbar_mobile-links button {
+  border: none;
+  background: none;
+}
 
 .navbar_mobile-links_links {
   display: none;
   flex-direction: column;
   position: sticky;
-  top: 104px;
+  top: 100px;
   z-index: 2;
   background-color: #e3c6bd;
   font-size: 1.7rem;
@@ -137,6 +152,22 @@ a:active {
   margin: auto 8px;
 }
 
+@media screen and (max-width: 550px) {
+  .navbar_mobile-links,
+  .navbar_logo,
+  .navbar_cart {
+    justify-self: center;
+  }
+  #hamburger-icon {
+    width: 40px;
+  }
+  #navbar-logo_image {
+    width: 100px;
+  }
+  .navbar_cart img {
+    width: 30px;
+  }
+}
 .navbar_cart-button {
   background: none;
   box-shadow: none;

@@ -9,8 +9,7 @@ export default function Footer() {
 				<Link to="/">
 					<img
 						src={logo}
-						className="footer-logo"
-						width={150}
+						id="footer-logo"
 						alt="DecorUs logo in footer section"
 					/>
 				</Link>
@@ -24,13 +23,13 @@ export default function Footer() {
 					<p>Contact</p>
 				</div>
 			</div>
-			<i className="footer-disclaimer">
+			<p className="footer-disclaimer">
 				DISCLAIMER: This store is a product of fiction built by Khaled Ajaj.
 				Khaled Ajaj does not own any pictures and fonts found on this site; all
 				rights are reserved by their respective owners. The products on this
 				store are fictional and exist for the sole purpose of presenting ability
 				in designing e-commerce storefronts.
-			</i>
+			</p>
 		</div>
 	);
 }

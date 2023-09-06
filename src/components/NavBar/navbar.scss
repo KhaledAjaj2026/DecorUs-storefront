@@ -3,7 +3,6 @@
 #component_navbar {
     position: sticky;
     top: 0;
-    height: 100px;
     z-index: 1;
     background: index.$melon;
     border-bottom: 4px ridge index.$darkMelon;
@@ -25,13 +24,18 @@
 .navbar_mobile-links {
     overflow: hidden;
     position: relative;
+
+    button {
+        border: none;
+        background: none;
+    }
 }
 
 .navbar_mobile-links_links {
     display: none;
     flex-direction: column;
     position: sticky;
-    top: 104px;
+    top: 100px;
     z-index: 2;
     background-color: index.$darkMelon;
     font-size: 1.7rem;
@@ -72,6 +76,29 @@
 
     img {
         margin: auto 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .navbar_mobile-links,
+    .navbar_logo,
+    .navbar_cart {
+        justify-self: center;
+    }
+
+    #hamburger-icon {
+        width: 40px;
+    }
+
+    #navbar-logo_image {
+        width: 100px;
+    }
+
+    .navbar_cart {
+        img {
+            width: 30px;
+        }
     }
 }
 
