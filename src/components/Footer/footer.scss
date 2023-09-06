@@ -37,6 +37,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     #footer-logo {
         width: 75px;
     }
@@ -45,9 +46,14 @@
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
         align-items: start;
+
+        p {
+            font-size: 0.7rem;
+        }
     }
 
     .footer-disclaimer {
-        margin: 0;
+        text-align: center;
+        font-size: 0.7rem;
     }
 }

@@ -33,7 +33,7 @@ p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 3rem;
   }
@@ -126,7 +126,11 @@ a:active {
          column-gap: 10px;
     align-items: start;
   }
+  .footer-links p {
+    font-size: 0.7rem;
+  }
   .footer-disclaimer {
-    margin: 0;
+    text-align: center;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=footer.css.map */
