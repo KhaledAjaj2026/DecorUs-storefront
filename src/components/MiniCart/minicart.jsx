@@ -13,11 +13,7 @@ export default function MiniCart({ cartShow }) {
 				<h2>Cart</h2>
 				<div className="minicart_items">
 					<div className="minicart_item-preview">
-						<img
-							src={furnitureData[13].location}
-							width={160}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[13].location} alt="armchair gray" />
 						<div className="minicart_item-information">
 							<span className="minicart_item-name">
 								{furnitureData[13].name}
@@ -28,11 +24,7 @@ export default function MiniCart({ cartShow }) {
 						</div>
 					</div>
 					<div className="minicart_item-preview">
-						<img
-							src={furnitureData[7].location}
-							width={160}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[7].location} alt="armchair gray" />
 						<div className="minicart_item-information">
 							<span className="minicart_item-name">
 								{furnitureData[7].name}
@@ -43,11 +35,7 @@ export default function MiniCart({ cartShow }) {
 						</div>
 					</div>
 					<div className="minicart_item-preview">
-						<img
-							src={furnitureData[10].location}
-							width={160}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[10].location} alt="armchair gray" />
 						<div className="minicart_item-information">
 							<span className="minicart_item-name">
 								{furnitureData[10].name}
@@ -60,8 +48,9 @@ export default function MiniCart({ cartShow }) {
 				</div>
 				<div className="minicart_checkout">
 					<div className="minicart_total">
-						<h3 className="minicart_total-label">Total:</h3>
-						<span className="minicart_total-price">$909.97</span>
+						<h3 className="minicart_total-label">
+							Total: <span className="minicart_total-price">$909.97</span>
+						</h3>
 					</div>
 					<Link to="/cart">
 						<button className="minicart_checkout-button animating-button">

@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -32,6 +33,17 @@ p {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
 a {
   font-family: "Libre Franklin", sans-serif;
   color: #484a47;
@@ -70,10 +82,10 @@ a:active {
 
 @keyframes cartAppear {
   0% {
-    left: 100%;
+    left: 100vw;
   }
   100% {
-    left: 70%;
+    left: 60vw;
   }
 }
 .minicart-appear {
@@ -85,10 +97,10 @@ a:active {
   background-color: #e3c6bd;
   position: fixed;
   right: 0;
-  left: 100%;
+  left: 100vw;
   border-left: 3px ridge #e3c6bd;
-  width: 30%;
-  height: 89vh;
+  width: 40vw;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
@@ -98,8 +110,22 @@ a:active {
 }
 #component_minicart img {
   border: 2px ridge #a37774;
+  width: 50%;
 }
 
+@media screen and (max-width: 600px) {
+  @keyframes cartAppear {
+    0% {
+      left: 100vw;
+    }
+    100% {
+      left: 30vw;
+    }
+  }
+  #component_minicart {
+    width: 70vw;
+  }
+}
 .minicart_items {
   margin: 2rem auto 3rem;
 }
