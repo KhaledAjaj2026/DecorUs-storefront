@@ -33,7 +33,7 @@ p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 3rem;
   }
@@ -100,14 +100,24 @@ a:active {
 }
 
 #discover_image-left {
-  width: 50%;
-  margin: auto 50px 5rem auto;
+  width: 400px;
+  margin: auto 90px 2rem auto;
 }
 
 #discover_image-right {
-  width: 45%;
+  width: 350px;
+  margin: auto auto 2rem 100px;
 }
 
+@media screen and (max-width: 550px) {
+  #discover_image-left {
+    width: 250px;
+  }
+  #discover_image-right {
+    width: 225px;
+    margin-left: 50px;
+  }
+}
 .home_handcrafted {
   display: flex;
   justify-content: center;
@@ -119,12 +129,19 @@ a:active {
 }
 
 #handcrafted-image {
-  width: 60%;
+  width: 400px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+  .home_handcrafted {
+    flex-direction: column;
+  }
+  .home_handcrafted div {
+    width: 100%;
+    text-align: center;
+  }
   #handcrafted-image {
-    width: 200px;
+    width: 300px;
   }
 }
 .home_reviews h3 {

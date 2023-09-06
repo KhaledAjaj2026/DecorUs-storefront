@@ -70,7 +70,7 @@ export default function Home() {
 					<i>Amazing!</i>
 					<i>Comfortable and Stylish</i>
 					<i>Nothing like it!</i>
-					<i>Outstanding Quality</i>
+					<i>Outstanding</i>
 				</section>
 				<section className="home_shop-now">
 					<h2>Take the Next Step</h2>
