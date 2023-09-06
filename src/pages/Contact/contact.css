@@ -5,6 +5,9 @@
   align-items: center;
 }
 #route_contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
 }
 #route_contact form * {
@@ -12,6 +15,4 @@
 }
 #route_contact form input {
   width: 250px;
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=contact.css.map */

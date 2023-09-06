@@ -10,10 +10,10 @@ export default function About() {
 	return (
 		<>
 			<NavBar />
-			<div id="route_about">
+			<div id="page_about">
 				<h1>Our Story</h1>
 				<section className="about_beginnings">
-					<div>
+					<div className="about_section-text">
 						<h2>Beginnings</h2>
 						<p>
 							{
@@ -23,26 +23,27 @@ export default function About() {
 					</div>
 					<img
 						src={picOfGramps}
+						id="gramps-image"
 						alt="picture of our founder and dear grandfather"
 					/>
 				</section>
 				<section className="about_building-our-brand">
-					<div>
+					<div className="about_section-text">
 						<h2>Building Our Brand</h2>
 						<p>
 							{
-								"It was hard, I won't lie. There were times where it seemed like we were one bad day away from closing shop. With the most gracious luck, however, we pulled through and expanded, building branches in state after state. We trained our craftsmen personally to build like Gramps did. Only the best materials were used in our crafts, and only the best crafts were put up for sale. Our name grew faster than we could hire new recruits!"
+								"It was hard, I won't lie. There were times where it seemed like we were one bad day away from closing shop. With the most gracious luck, however, we pulled through and expanded. We trained our craftsmen personally to build like Gramps did. Only the best materials were used in our crafts, and only the best crafts were put up for sale. Our name grew faster than we could hire new recruits!"
 							}
 						</p>
 					</div>
 					<img
 						src={building}
-						width={500}
+						id="building-image"
 						alt="picture of our founder and dear grandfather"
 					/>
 				</section>
 				<section className="about_today">
-					<div>
+					<div className="about_section-text">
 						<h2>Today</h2>
 						<p>
 							{
@@ -52,7 +53,7 @@ export default function About() {
 					</div>
 					<img
 						src={armchair}
-						width={500}
+						id="chair-about-image"
 						alt="picture of our founder and dear grandfather"
 					/>
 				</section>

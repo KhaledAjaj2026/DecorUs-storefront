@@ -1,21 +1,55 @@
-#route_about {
-    margin: 10vh 8vw;
+#page_about {
+    margin: 10vh 2rem;
     text-align: center;
 
     section {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         margin: 10rem auto;
     }
 
     p {
         width: 35vw;
+        font-size: 1rem;
     }
+}
+
+.about_section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about_building-our-brand {
     flex-direction: row-reverse;
+}
+
+#gramps-image,
+#building-image,
+#chair-about-image {
+    width: 380px;
+}
+
+@media screen and (max-width: 655px) {
+    #page_about {
+        margin: 1rem;
+
+        section {
+            flex-direction: column;
+            margin: 5rem auto;
+        }
+
+        p {
+            width: 100%;
+        }
+    }
+
+    #gramps-image,
+    #building-image,
+    #chair-about-image {
+        width: 300px;
+    }
 }
 
 .about_shop-now {

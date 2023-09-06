@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    height: 100px;
     background: index.$melon;
     border-bottom: 4px ridge index.$darkMelon;
     display: grid;
@@ -35,7 +36,7 @@
     display: none;
     flex-direction: column;
     position: sticky;
-    top: 100px;
+    top: 104px;
     z-index: 2;
     background-color: index.$darkMelon;
     font-size: 1.7rem;
@@ -88,11 +89,11 @@
     }
 
     #hamburger-icon {
-        width: 40px;
+        width: 30px;
     }
 
     #navbar-logo_image {
-        width: 100px;
+        width: 80px;
     }
 
     .navbar_cart {
