@@ -1,11 +1,12 @@
 @use '../../index.scss';
 
 #page_cart {
-    margin: 10vh 8vw;
+    margin: 10vh 2rem;
     text-align: center;
 
     img {
         border: 2px ridge index.$oldRose;
+        width: 200px;
     }
 }
 
@@ -66,4 +67,20 @@
 
 .cart_checkout-button {
     margin: 2.5rem auto 2rem;
+}
+
+@media screen and (max-width: 550px) {
+    #page_cart {
+        img {
+            width: 120px;
+        }
+    }
+
+    .cart_item-name {
+        font-size: 1.2rem;
+    }
+
+    .cart_item-price {
+        font-size: 1rem;
+    }
 }

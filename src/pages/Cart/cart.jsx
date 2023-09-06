@@ -13,11 +13,7 @@ export default function Cart() {
 				<div className="cart_items">
 					<div className="cart_item-preview">
 						<p className="cart_item-count">1.</p>
-						<img
-							src={furnitureData[2].location}
-							width={250}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[2].location} alt="armchair gray" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[2].name}</span>
 							<span className="cart_item-price">{furnitureData[2].price}</span>
@@ -25,11 +21,7 @@ export default function Cart() {
 					</div>
 					<div className="cart_item-preview">
 						<p className="cart_item-count">2.</p>
-						<img
-							src={furnitureData[5].location}
-							width={250}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[5].location} alt="armchair gray" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[5].name}</span>
 							<span className="cart_item-price">{furnitureData[5].price}</span>
@@ -37,11 +29,7 @@ export default function Cart() {
 					</div>
 					<div className="cart_item-preview">
 						<p className="cart_item-count">3.</p>
-						<img
-							src={furnitureData[6].location}
-							width={250}
-							alt="armchair gray"
-						/>
+						<img src={furnitureData[6].location} alt="armchair gray" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[6].name}</span>
 							<span className="cart_item-price">{furnitureData[6].price}</span>

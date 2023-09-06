@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -32,6 +33,17 @@ p {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
 a {
   font-family: "Libre Franklin", sans-serif;
   color: #484a47;
@@ -69,11 +81,12 @@ a:active {
 }
 
 #page_cart {
-  margin: 10vh 8vw;
+  margin: 10vh 2rem;
   text-align: center;
 }
 #page_cart img {
   border: 2px ridge #a37774;
+  width: 200px;
 }
 
 .cart_items {
@@ -132,4 +145,16 @@ a:active {
 
 .cart_checkout-button {
   margin: 2.5rem auto 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  #page_cart img {
+    width: 120px;
+  }
+  .cart_item-name {
+    font-size: 1.2rem;
+  }
+  .cart_item-price {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=cart.css.map */
