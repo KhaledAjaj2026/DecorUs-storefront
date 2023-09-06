@@ -11,6 +11,17 @@
   align-items: center;
 }
 
+@media screen and (max-width: 655px) {
+  #component_item {
+    width: 130px;
+    height: 200px;
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
 .item-img {
   width: 73%;
   margin-top: 10px;

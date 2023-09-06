@@ -1,11 +1,16 @@
 #page_shop {
-  margin: 10vh 8vw;
+  margin: 10vh 2rem;
   text-align: center;
+}
+
+@media screen and (max-width: 655px) {
+  #page_shop {
+    margin: 1rem;
+  }
 }
 
 .shop_products-window {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
 }

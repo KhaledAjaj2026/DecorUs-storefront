@@ -33,12 +33,12 @@ p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 3rem;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   p {
     font-size: 1rem;
@@ -91,6 +91,15 @@ a:active {
   align-items: center;
 }
 
+@media screen and (max-width: 655px) {
+  #component_item {
+    width: 130px;
+    height: 200px;
+  }
+  #component_item p {
+    font-size: 0.8rem;
+  }
+}
 .item-img {
   width: 73%;
   margin-top: 10px;
