@@ -30,7 +30,7 @@
     justify-content: center;
 }
 
-.item-img {
+.product_item-img {
     width: 380px;
     border: 8px ridge index.$oldRose
 }
@@ -40,7 +40,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .item-img {
+    .product_item-img {
         width: 200px;
     }
 
@@ -54,7 +54,7 @@
         flex-direction: column;
     }
 
-    .item-img {
+    .product_item-img {
         margin: 2rem auto;
     }
 

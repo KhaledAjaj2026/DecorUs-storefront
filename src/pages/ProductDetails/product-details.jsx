@@ -19,7 +19,7 @@ export default function ProductDetails() {
 				<div className="product-details_window">
 					<img
 						src={furniture.location}
-						className="item-img"
+						className="product_item-img"
 						alt={furniture.name}
 					/>
 					<div className="product-details_information">
@@ -27,7 +27,7 @@ export default function ProductDetails() {
 						<p className="product-details_description">
 							{furniture.description}
 						</p>
-						<p className="item-price">{furniture.price}</p>
+						<p className="product_item-price">{furniture.price}</p>
 						<Link to="/cart">
 							<button className="animating-button">Add to Cart</button>
 						</Link>

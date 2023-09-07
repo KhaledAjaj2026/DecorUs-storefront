@@ -110,7 +110,7 @@ a:active {
   justify-content: center;
 }
 
-.item-img {
+.product_item-img {
   width: 380px;
   border: 8px ridge #a37774;
 }
@@ -120,7 +120,7 @@ a:active {
 }
 
 @media screen and (max-width: 650px) {
-  .item-img {
+  .product_item-img {
     width: 200px;
   }
   .product-details_name {
@@ -131,7 +131,7 @@ a:active {
   .product-details_window {
     flex-direction: column;
   }
-  .item-img {
+  .product_item-img {
     margin: 2rem auto;
   }
   .product-details_information {
