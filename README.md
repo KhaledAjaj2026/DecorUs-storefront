@@ -6,7 +6,7 @@ An e-commerce storefront featuring furniture products that uses React Router for
 
 Wanted to build a website to learn how to use React Router, as well as styling JSX elements. Enjoyed the ease-of-use that came with React Router. Found SASS variables very usedful for keeping a consistent theme across the site and across pages.
 
-Learned to pass state between React-Router pages via its 'state' attribute. Reviewed separation of concerns concept when styling images and icons. Learned to trust HTML5's inherent responsiveness for compatibility across different screen sizes. Used
+Learned to pass state between React-Router pages via its 'state' attribute. Learned how to create hamburger-menu for mobile/tablet devices. Reviewed separation of concerns concept when styling images and icons. Learned to trust HTML5's inherent responsiveness for compatibility across different screen sizes.
 
 ## Possible Future Features
 
