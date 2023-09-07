@@ -1,7 +1,7 @@
 @use '../../index.scss';
 
 #page_product-details {
-    margin: 10vh 8vw;
+    margin: 10vh 2rem;
 }
 
 .back-to-shop {
@@ -14,24 +14,51 @@
 
 .product-details_window {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
 
-    * {
-        margin: 40px;
-    }
+.product-details_name {
+    font-family: index.$fontLabel;
+    font-size: 3rem;
+}
 
-    img {
-        width: 500px;
-        border: 8px ridge index.$oldRose
-    }
+.product-details_information {
+    margin: auto 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    h3 {
-        font-family: index.$fontLabel;
-        font-size: 3rem;
-    }
+.item-img {
+    width: 380px;
+    border: 8px ridge index.$oldRose
 }
 
 .product-details_description {
     font-family: index.$fontDescription;
+}
+
+@media screen and (max-width: 650px) {
+    .item-img {
+        width: 200px;
+    }
+
+    .product-details_name {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .product-details_window {
+        flex-direction: column;
+    }
+
+    .item-img {
+        margin: 2rem auto;
+    }
+
+    .product-details_information {
+        margin: 0;
+    }
 }

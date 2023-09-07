@@ -1,7 +1,7 @@
 @use '../../index.scss';
 
 #page_home {
-    margin: 2rem;
+    margin: 10vh 1rem;
     text-align: center;
 
     header,
@@ -26,20 +26,17 @@
 
 #discover_image-left {
     width: 400px;
-    // width: 50%;
     margin: auto 90px 2rem auto;
 }
 
 #discover_image-right {
     width: 350px;
-    // width: 45%;
     margin: auto auto 2rem 100px;
 }
 
 @media screen and (max-width: 550px) {
     #discover_image-left {
         width: 250px;
-        // margin: auto 50px 2rem auto;
     }
 
     #discover_image-right {
@@ -60,7 +57,6 @@
 }
 
 #handcrafted-image {
-    // width: 60%;
     width: 400px;
 }
 

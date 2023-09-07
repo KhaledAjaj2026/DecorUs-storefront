@@ -12,6 +12,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -33,6 +34,17 @@ p {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
 a {
   font-family: "Libre Franklin", sans-serif;
   color: #484a47;
@@ -70,7 +82,7 @@ a:active {
 }
 
 #page_product-details {
-  margin: 10vh 8vw;
+  margin: 10vh 2rem;
 }
 
 .back-to-shop {
@@ -82,21 +94,47 @@ a:active {
 
 .product-details_window {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
-.product-details_window * {
-  margin: 40px;
-}
-.product-details_window img {
-  width: 500px;
-  border: 8px ridge #a37774;
-}
-.product-details_window h3 {
+
+.product-details_name {
   font-family: "Exo 2", sans-serif;
   font-size: 3rem;
 }
 
+.product-details_information {
+  margin: auto 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-img {
+  width: 380px;
+  border: 8px ridge #a37774;
+}
+
 .product-details_description {
   font-family: "Barlow Condensed", sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+  .item-img {
+    width: 200px;
+  }
+  .product-details_name {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .product-details_window {
+    flex-direction: column;
+  }
+  .item-img {
+    margin: 2rem auto;
+  }
+  .product-details_information {
+    margin: 0;
+  }
 }/*# sourceMappingURL=product-details.css.map */

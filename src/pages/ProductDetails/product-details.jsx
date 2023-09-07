@@ -22,7 +22,7 @@ export default function ProductDetails() {
 						className="item-img"
 						alt={furniture.name}
 					/>
-					<div>
+					<div className="product-details_information">
 						<h3 className="product-details_name">{furniture.name}</h3>
 						<p className="product-details_description">
 							{furniture.description}
