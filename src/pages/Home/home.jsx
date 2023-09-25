@@ -21,11 +21,18 @@ export default function Home() {
 					data-aos="zoom-out"
 					data-aos-duration="1000"
 				>
-					<h1>Furniture for Any Design</h1>
-					<p>Shop from only the best selection of handcrafted masterpieces</p>
-					<Link to="/shop">
-						<button className="animating-button">Shop Now</button>
-					</Link>
+					<div
+						className="home-header_text"
+						data-aos="zoom-out"
+						data-aos-duration="1000"
+						data-aos-delay="300"
+					>
+						<h1>Furniture for Any Design</h1>
+						<p>Shop from only the best selection of handcrafted masterpieces</p>
+						<Link to="/shop">
+							<button className="animating-button">Shop Now</button>
+						</Link>
+					</div>
 				</header>
 				<section
 					className="home_featured"
@@ -41,10 +48,10 @@ export default function Home() {
 							price={furnitureData[17].price}
 						/>
 						<ProductItem
-							name={furnitureData[7].name}
-							location={furnitureData[7].location}
-							description={furnitureData[7].description}
-							price={furnitureData[7].price}
+							name={furnitureData[8].name}
+							location={furnitureData[8].location}
+							description={furnitureData[8].description}
+							price={furnitureData[8].price}
 						/>
 						<ProductItem
 							name={furnitureData[2].name}

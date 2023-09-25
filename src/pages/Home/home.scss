@@ -2,11 +2,27 @@
 
 #page_home {
     margin: 10vh 1rem;
+    margin-top: -160px;
     text-align: center;
 
     header,
     section {
         margin: 10rem auto;
+    }
+}
+
+.home-header {
+    height: 90vh;
+    background: no-repeat center url(/furniture/bed-2-min.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .home-header_text {
+        padding: 4.5rem;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
     }
 }
 
