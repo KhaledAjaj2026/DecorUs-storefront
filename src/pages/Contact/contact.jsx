@@ -1,6 +1,7 @@
 import { ScrollRestoration } from 'react-router-dom';
 import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
+import 'aos/dist/aos.css';
 import './contact.css';
 
 export default function Contact() {
@@ -8,7 +9,7 @@ export default function Contact() {
 		<>
 			<NavBar />
 			<div id="route_contact">
-				<h1>Get In Touch</h1>
+				<h1 data-aos="zoom-out">Get In Touch</h1>
 				<p>Let us know of anything you need, we are always happy to help.</p>
 				<form>
 					<label htmlFor="customer-name">Name: </label>

@@ -26,7 +26,9 @@ export default function Shop() {
 		<>
 			<NavBar />
 			<div id="page_shop">
-				<h1 className="shop-title">Only The Best</h1>
+				<h1 className="shop-title" data-aos="zoom-out">
+					Only The Best
+				</h1>
 				<p>Shop our careful selection of perfection & mastery</p>
 				<div className="shop_products-window">{renderProducts()}</div>
 			</div>

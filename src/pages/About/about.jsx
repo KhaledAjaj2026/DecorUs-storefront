@@ -4,6 +4,7 @@ import Footer from '/src/components/Footer/footer';
 import picOfGramps from '/furniture-shop.jpeg';
 import building from '/building.jpg';
 import armchair from '/furniture/armchair-5-min.jpg';
+import 'aos/dist/aos.css';
 import './about.css';
 
 export default function About() {
@@ -11,7 +12,7 @@ export default function About() {
 		<>
 			<NavBar />
 			<div id="page_about">
-				<h1>Our Story</h1>
+				<h1 data-aos="zoom-out">Our Story</h1>
 				<section className="about_beginnings">
 					<div className="about_section-text">
 						<h2>Beginnings</h2>

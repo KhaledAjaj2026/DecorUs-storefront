@@ -1,7 +1,8 @@
+import { Link, ScrollRestoration } from 'react-router-dom';
 import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
 import furnitureData from '/src/productsforsale.json';
-import { Link, ScrollRestoration } from 'react-router-dom';
+import 'aos/dist/aos.css';
 import './cart.css';
 
 export default function Cart() {
@@ -9,7 +10,7 @@ export default function Cart() {
 		<>
 			<NavBar />
 			<div id="page_cart">
-				<h1>Cart</h1>
+				<h1 data-aos="zoom-out">Cart</h1>
 				<div className="cart_items">
 					<div className="cart_item-preview">
 						<p className="cart_item-count">1.</p>

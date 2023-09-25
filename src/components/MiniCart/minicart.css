@@ -93,6 +93,7 @@ a:active {
 }
 
 #component_minicart {
+  z-index: 10;
   text-align: center;
   background-color: #e3c6bd;
   position: fixed;
@@ -113,17 +114,24 @@ a:active {
   width: 50%;
 }
 
+.minicart-content {
+  margin-bottom: 50px;
+}
+
 @media screen and (max-width: 600px) {
   @keyframes cartAppear {
     0% {
       left: 100vw;
     }
     100% {
-      left: 30vw;
+      left: 0vw;
     }
   }
   #component_minicart {
-    width: 70vw;
+    width: 100vw;
+  }
+  .minicart-content {
+    margin-bottom: 150px;
   }
 }
 .minicart_items {
