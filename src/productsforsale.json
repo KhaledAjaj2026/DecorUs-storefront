@@ -4,132 +4,132 @@
 		"location": "/furniture/armchair-1-min.jpg",
 		"type": "armchair",
 		"description": "Designed for the most studious of bookworms, this chair will make you forget where you are as you dive into your favorite novel.",
-		"price": "$124.99"
+		"price": "124.99"
 	},
 	{
 		"name": "Coral Fabric Armchair",
 		"location": "/furniture/armchair-2-min.jpg",
 		"type": "armchair",
 		"description": "Sink into this one-of-a-kind comfort chairs and enjoy your afternoons like never before.",
-		"price": "$213.99"
+		"price": "213.99"
 	},
 	{
 		"name": "Mosaic Fabric Armchair",
 		"location": "/furniture/armchair-3-min.jpg",
 		"type": "armchair",
 		"description": "A humble piece of furniture for the humble craftsman, take a break from your crafts on this comforting chair.",
-		"price": "$199.99"
+		"price": "199.99"
 	},
 	{
 		"name": "Marble Canvas Armchair",
 		"location": "/furniture/armchair-4-min.jpg",
 		"type": "armchair",
 		"description": "Our best armchair yet, it wraps around you as you sit and keeps you warm as you relax, boasting our finest craftsmanship yet.",
-		"price": "$479.99"
+		"price": "479.99"
 	},
 	{
 		"name": "Dark Leather Armchair",
 		"location": "/furniture/armchair-4-min.jpg",
 		"type": "armchair",
 		"description": "For the classic look in any reading room or office, its sturdy build goes well with its modest design.",
-		"price": "$119.99"
+		"price": "119.99"
 	},
 	{
 		"name": "Dark Oak Bedframe",
 		"location": "/furniture/bed-2-min.jpg",
 		"type": "bed",
 		"description": "Dark yet uplifting, the high frame allows for easy storage underneath while elevating your slumber.",
-		"price": "$459.99"
+		"price": "459.99"
 	},
 	{
 		"name": "Light Brown Bedframe",
 		"location": "/furniture/bed-3-min.jpg",
 		"type": "bed",
 		"description": "For the minimalist who loves the intricacy of simple designs, this bed gives you the necessities of a good night's sleep.",
-		"price": "$159.99"
+		"price": "159.99"
 	},
 	{
 		"name": "Black Satin Bedframe",
 		"location": "/furniture/bed-4-min.jpg",
 		"type": "bed",
 		"description": "The queen of beds includes her own Ottoman and comes in an exquisite design for your perfect bedroom.",
-		"price": "$999.99"
+		"price": "999.99"
 	},
 	{
 		"name": "Dark Cherry Bedframe",
 		"location": "/furniture/bed-5-min.jpg",
 		"type": "bed",
 		"description": "The deep brown of this bedframe will surely send you to dreamland simply from its comforting aura and wide frame.",
-		"price": "$359.99"
+		"price": "359.99"
 	},
 	{
 		"name": "Brown Oak Bookshelf",
 		"location": "/furniture/bookshelf-1-min.jpg",
 		"type": "bookshelf",
 		"description": "Gather your favorite novels in this 3-level bookshelf made for the modern reading room.",
-		"price": "$113.99"
+		"price": "113.99"
 	},
 	{
 		"name": "Thin Frame Bookshelf",
 		"location": "/furniture/bookshelf-2-min.jpg",
 		"type": "bookshelf",
 		"description": "Fancy a deocrative mantle for your excursion trophies? This shelf features a thin frame to keep the attention on your prizes.",
-		"price": "$89.99"
+		"price": "89.99"
 	},
 	{
 		"name": "Fair Pine Bookshelf",
 		"location": "/furniture/bookshelf-3-min.jpg",
 		"type": "bookshelf",
 		"description": "Tall and spacious, it will fit nearly anything you desire and more with a special 2x2 grid on the bottom.",
-		"price": "$314.99"
+		"price": "314.99"
 	},
 	{
 		"name": "Metal Frame Bookshelf",
 		"location": "/furniture/bookshelf-4-min.jpg",
 		"type": "bookshelf",
 		"description": "Minimalism for the minimalist bookworm, the thin metal frame is sturdy enough to carry the weight of anything that can hang from it.",
-		"price": "$76.99"
+		"price": "76.99"
 	},
 	{
 		"name": "Pure Applewood Bookshelf",
 		"location": "/furniture/bookshelf-5-min.jpg",
 		"type": "bookshelf",
 		"description": "Made from the purest of apple-wood stock from the highest peaks of Mongolia, this bookshelf is truly one of a kind.",
-		"price": "$649.99"
+		"price": "649.99"
 	},
 	{
 		"name": "Simple Oak Dresser",
 		"location": "/furniture/dresser-1-min.jpg",
 		"type": "dresser",
 		"description": "A six-piece dresser for any casual bedroom, it features a fine mirror from our fine partners at 'Hoist Mirrors'.",
-		"price": "$278.99"
+		"price": "278.99"
 	},
 	{
 		"name": "Blackwood Dresser",
 		"location": "/furniture/dresser-2-min.jpg",
 		"type": "dresser",
 		"description": "Wood from the savannahs of Africa and shining handles made from the purest of handcrafted silver.",
-		"price": "$699.99"
+		"price": "699.99"
 	},
 	{
 		"name": "Light Sassafras Dresser",
 		"location": "/furniture/dresser-3-min.jpg",
 		"type": "dresser",
 		"description": "A humble dresser for any bedroom, yet spacious for many a piece of clothing and more.",
-		"price": "$224.99"
+		"price": "224.99"
 	},
 	{
 		"name": "High Sycamore Dresser",
 		"location": "/furniture/dresser-4-min.jpg",
 		"type": "dresser",
 		"description": "This dresser saves space by using its superior height to its advantage, providing more storage and bedroom space.",
-		"price": "$319.99"
+		"price": "319.99"
 	},
 	{
 		"name": "White Plastic Dresser",
 		"location": "/furniture/dresser-5-min.jpg",
 		"type": "dresser",
 		"description": "Simple and cheap, but expert in design and craft, a basic dresser that does the job.",
-		"price": "$99.99"
+		"price": "99.99"
 	}
 ]

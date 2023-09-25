@@ -49,7 +49,12 @@ export default function MiniCart({ cartShow }) {
 				<div className="minicart_checkout">
 					<div className="minicart_total">
 						<h3 className="minicart_total-label">
-							Total: <span className="minicart_total-price">$909.97</span>
+							Total:{' '}
+							<span className="minicart_total-price">
+								{JSON.parse(furnitureData[13].price) +
+									JSON.parse(furnitureData[7].price) +
+									JSON.parse(furnitureData[10].price)}
+							</span>
 						</h3>
 					</div>
 					<Link to="/cart">

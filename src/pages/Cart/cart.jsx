@@ -13,7 +13,7 @@ export default function Cart() {
 				<div className="cart_items">
 					<div className="cart_item-preview">
 						<p className="cart_item-count">1.</p>
-						<img src={furnitureData[2].location} alt="armchair gray" />
+						<img src={furnitureData[2].location} alt="mosaic fabric armchair" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[2].name}</span>
 							<span className="cart_item-price">{furnitureData[2].price}</span>
@@ -21,7 +21,7 @@ export default function Cart() {
 					</div>
 					<div className="cart_item-preview">
 						<p className="cart_item-count">2.</p>
-						<img src={furnitureData[5].location} alt="armchair gray" />
+						<img src={furnitureData[5].location} alt="dark oak bedframe" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[5].name}</span>
 							<span className="cart_item-price">{furnitureData[5].price}</span>
@@ -29,7 +29,7 @@ export default function Cart() {
 					</div>
 					<div className="cart_item-preview">
 						<p className="cart_item-count">3.</p>
-						<img src={furnitureData[6].location} alt="armchair gray" />
+						<img src={furnitureData[6].location} alt="light brown bedframe" />
 						<div className="cart_item-information">
 							<span className="cart_item-name">{furnitureData[6].name}</span>
 							<span className="cart_item-price">{furnitureData[6].price}</span>
@@ -39,7 +39,11 @@ export default function Cart() {
 				<div className="cart_checkout">
 					<div className="cart_total">
 						<h3 className="cart_total-label">Total:</h3>
-						<span className="cart_total-price">$909.97</span>
+						<span className="cart_total-price">
+							{JSON.parse(furnitureData[2].price) +
+								JSON.parse(furnitureData[5].price) +
+								JSON.parse(furnitureData[6].price)}
+						</span>
 					</div>
 					<Link to="/">
 						<button className="cart_checkout-button animating-button">
