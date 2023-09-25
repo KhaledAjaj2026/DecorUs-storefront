@@ -111,6 +111,7 @@ a:active {
 }
 
 .product_item-img {
+  margin: 20px;
   width: 380px;
   border: 8px ridge #a37774;
 }

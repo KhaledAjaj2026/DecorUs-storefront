@@ -26,7 +26,7 @@ export default function Shop() {
 		<>
 			<NavBar />
 			<div id="page_shop">
-				<h1 className="shop-title" data-aos="zoom-out">
+				<h1 className="shop-title" data-aos="zoom-out" data-aos-duration="1000">
 					Only The Best
 				</h1>
 				<p>Shop our careful selection of perfection & mastery</p>

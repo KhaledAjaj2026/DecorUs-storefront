@@ -9,7 +9,9 @@ export default function Contact() {
 		<>
 			<NavBar />
 			<div id="route_contact">
-				<h1 data-aos="zoom-out">Get In Touch</h1>
+				<h1 data-aos="zoom-out" data-aos-duration="1000">
+					Get In Touch
+				</h1>
 				<p>Let us know of anything you need, we are always happy to help.</p>
 				<form>
 					<label htmlFor="customer-name">Name: </label>

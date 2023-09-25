@@ -10,7 +10,9 @@ export default function Cart() {
 		<>
 			<NavBar />
 			<div id="page_cart">
-				<h1 data-aos="zoom-out">Cart</h1>
+				<h1 data-aos="zoom-out" data-aos-duration="1000">
+					Cart
+				</h1>
 				<div className="cart_items">
 					<div className="cart_item-preview">
 						<p className="cart_item-count">1.</p>

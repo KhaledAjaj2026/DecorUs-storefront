@@ -12,7 +12,9 @@ export default function About() {
 		<>
 			<NavBar />
 			<div id="page_about">
-				<h1 data-aos="zoom-out">Our Story</h1>
+				<h1 data-aos="zoom-out" data-aos-duration="1000">
+					Our Story
+				</h1>
 				<section className="about_beginnings">
 					<div className="about_section-text">
 						<h2>Beginnings</h2>
