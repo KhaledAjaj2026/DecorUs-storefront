@@ -111,9 +111,10 @@ a:active {
 }
 
 .navbar_mobile-links_links {
+  width: 100vw;
   display: none;
   flex-direction: column;
-  position: sticky;
+  position: fixed;
   top: 104px;
   z-index: 2;
   background-color: #e3c6bd;
