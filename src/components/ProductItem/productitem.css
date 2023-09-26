@@ -91,6 +91,21 @@ a:active {
   align-items: center;
 }
 
+.item-img {
+  width: 73%;
+  margin-top: 10px;
+}
+
+.item-name {
+  margin: 1.5rem 0 0 0;
+  padding: 3px;
+  font-size: 1.4rem;
+}
+
+.item-price {
+  font-family: "Cutive Mono", monospace;
+}
+
 @media screen and (max-width: 655px) {
   #component_item {
     width: 130px;
@@ -99,17 +114,9 @@ a:active {
   #component_item p {
     font-size: 0.8rem;
   }
-}
-.item-img {
-  width: 73%;
-  margin-top: 10px;
-}
-
-.item-name {
-  margin: 1.5rem 5px 0 5px;
-  font-size: 1.4rem;
-}
-
-.item-price {
-  font-family: "Cutive Mono", monospace;
+  .item-name {
+    margin: 0.5rem 0 0 0;
+    padding: 3px;
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=productitem.css.map */
