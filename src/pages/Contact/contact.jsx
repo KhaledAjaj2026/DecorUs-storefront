@@ -1,4 +1,4 @@
-import { ScrollRestoration } from 'react-router-dom';
+import { Link, ScrollRestoration } from 'react-router-dom';
 import NavBar from '/src/components/NavBar/navbar';
 import Footer from '/src/components/Footer/footer';
 import 'aos/dist/aos.css';
@@ -30,9 +30,9 @@ export default function Contact() {
 						cols="30"
 						rows="8"
 					></textarea>
-					<button type="submit" className="animating-button">
-						Submit
-					</button>
+					<Link to="/">
+						<button className="animating-button">Submit</button>
+					</Link>
 				</form>
 			</div>
 			<Footer />
