@@ -4,7 +4,7 @@ An e-commerce storefront featuring furniture products that uses React Router for
 
 ## Motivation
 
-Wanted to build a website to learn how to use React Router, as well as separating concerns when styling JSX elements. Enjoyed the ease-of-use that came with React Router, thanks to its concise documentation. Found SASS variables very usedful for keeping a consistent theme across the site and across pages.
+Wanted to build a website to learn how to use React Router, as well as separating concerns when styling JSX elements. Enjoyed the ease-of-use that came with React Router, thanks to its concise documentation. Found SASS variables very useful for keeping a consistent theme across the site and across pages.
 
 ## Lessons Learned
 
